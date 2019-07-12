@@ -4,7 +4,7 @@ title: Misc
 permalink: /misc/
 ---
 
-Miscellaneous reading, resources, and other things I find cool.
+Miscellaneous resources, reading, and other things I find cool.
 
 **Field Surveys/Literature Reviews/Primers**
 * [NBER Reporter](https:/www.nber.org/reporter/archive.html)
@@ -16,7 +16,9 @@ Miscellaneous reading, resources, and other things I find cool.
 * Econometrics
     * [NBER Summer Institute Econometric
         Lectures](https://www.nber.org/SI_econometrics_lectures.html)
-    * [Chris Conlon's 2nd Year PhD Course in
-    Micro-econometrics](https://github.com/chrisconlon/micro-metrics)
 * Finance
 * Other stuff
+
+**Computational Resources/Software**
+* [Dotfiles! (.vimrc, .bashrc, .tmux.conf)](https://github.com/caimichael/dotfiles)
+* [MIT StarCluster](http://star.mit.edu/cluster/)
