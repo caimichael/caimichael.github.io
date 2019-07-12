@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<img src="/assets/profile.jpg" height="350" align="right"/>
+<img src="/assets/profile.jpg" height="400" align="right"/>
 
 I am a first year PhD student in Economics at Northwestern University, pursuing research in the intersection of household, consumer, and public finance.
 
