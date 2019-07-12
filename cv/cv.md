@@ -6,10 +6,10 @@
 
 Education
 ---------
-**Northwestern University** Weinberg College of Arts and Science
+**Northwestern University** Weinberg College of Arts and Science  
 Ph.D. in Economics, August 2019 -
 
-**New York University** Stern School of Business
+**New York University** Stern School of Business  
 B.S. in Business Economics with a minor in Mathematics, May 2017  
 Graduated *summa cum laude*
 
