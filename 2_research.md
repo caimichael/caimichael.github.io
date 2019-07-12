@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-Working Papers
+Papers
 --------------
 **[DSGE Forecasts of the Lost Recovery](/files/sr844.pdf)**  
 with Marco Del Negro, Marc P. Giannoni, Abhi Gupta, Pearl Li, & Erica Moszkowski  
@@ -14,5 +14,6 @@ The years following the Great Recession were challenging for forecasters. Unlike
 
 Works in Progress
 -----------------
-**DSGE Model Estimation and Predictive Density Forecasting using Sequential Monte Carlo Methods**  
-with Marco Del Negro, Ed Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
+**Online Estimation of DSGE Models**  
+with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
+This paper illustrates the usefulness of sequential Monte Carlo (SMC) methods in approximating DSGE model posterior distributions. We show how the tempering schedule can be chosen adaptively, explore the benefits of generalized data tempering for “online” or “real-time” estimation, and provide examples of multimodal posteriors that are well captured by SMC methods. We then use the online estimation of the DSGE model to compute pseudo-out-of-sample density forecasts and document the benefits of conditioning DSGE model forecasts on nowcasts of macroeconomic variables and interest rate expectations pre and post Great Recession and we compare the predictive performance of DSGE models based on “standard” and more diffuse prior distributions.
