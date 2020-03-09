@@ -26,7 +26,7 @@ The years following the Great Recession were challenging for forecasters. Unlike
 
 Working Papers
 -----------------
-**[Online Estimation of DSGE Models]**(/files/online_estimation.pdf)
+**[Online Estimation of DSGE Models](/files/online_estimation.pdf)**
 with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
 Revise and Resubmit at *The Econometrics Journal*.  
 NBER Working Paper Series (March 2020), Working Paper No. 26826.
