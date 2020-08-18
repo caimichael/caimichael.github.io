@@ -49,7 +49,7 @@ Research Assistant for Prof. Paul Romer, Fall 2015
 Honors and Grants
 -----------------
 XSEDE Research Allocation - XRAC SES190003 (March 2019)  
-Estimating Heterogeneous Agent Dynamic Stochastic General Equilibrium (DSGE) Models using Sequential Monte Carlo
+Estimating Heterogeneous Agent Dynamic Stochastic General Equilibrium (DSGE) Models using Sequential Monte Carlo  
 Award for Excellence in Economics (Given to a single student in the undergraduate college)  
 Beta Gamma Sigma Honors Society
 
