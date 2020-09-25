@@ -6,6 +6,12 @@ permalink: /research/
 
 Published Papers
 --------------
+**[Online Estimation of DSGE Models](/files/online_estimation.pdf)**
+with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
+*The Econometrics Journal*: Sept 2020   
+
+This paper illustrates the usefulness of sequential Monte Carlo (SMC) methods in approximating DSGE model posterior distributions. We show how the tempering schedule can be chosen adaptively, document the accuracy and runtime benefits of generalized data tempering for “online” estimation (that is, re-estimating a model as new data become available), and provide examples of multimodal posteriors that are well captured by SMC methods. We then use the online estimation of the DSGE model to compute pseudo-out-of-sample density forecasts and study the sensitivity of the predictive performance to changes in the prior distribution. We find that making priors less informative (compared to the benchmark priors used in the literature) by increasing the prior variance does not lead to a deterioration of forecast accuracy.  
+
 **[DSGE Forecasts of the Lost Recovery](https://www.sciencedirect.com/science/article/abs/pii/S0169207018302012?via%3Dihub)**  
 with Marco Del Negro, Marc P. Giannoni, Abhi Gupta, Pearl Li, & Erica Moszkowski  
 *International Journal of Forecasting*: Volume 35, Issue 4, Oct-Dec 2019, Pg. 1770-1789  
@@ -15,9 +21,3 @@ The years following the Great Recession were challenging for forecasters. Unlike
 
 Working Papers
 -----------------
-**[Online Estimation of DSGE Models](/files/online_estimation.pdf)**
-with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
-Revise and Resubmit at *The Econometrics Journal*.  
-NBER Working Paper Series (March 2020), Working Paper No. 26826.
-
-This paper illustrates the usefulness of sequential Monte Carlo (SMC) methods in approximating DSGE model posterior distributions. We show how the tempering schedule can be chosen adaptively, document the accuracy and runtime benefits of generalized data tempering for “online” estimation (that is, re-estimating a model as new data become available), and provide examples of multimodal posteriors that are well captured by SMC methods. We then use the online estimation of the DSGE model to compute pseudo-out-of-sample density forecasts and study the sensitivity of the predictive performance to changes in the prior distribution. We find that making priors less informative (compared to the benchmark priors used in the literature) by increasing the prior variance does not lead to a deterioration of forecast accuracy.
