@@ -6,9 +6,9 @@ permalink: /research/
 
 Published Papers
 --------------
-**[Online Estimation of DSGE Models](/files/online_estimation.pdf)**
+**[Online Estimation of DSGE Models](https://academic.oup.com/ectj/article/24/1/C33/5909595?login=true)**
 with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
-*The Econometrics Journal*: Sept 2020   
+*The Econometrics Journal*: Volume 24, Issue 1, Jan 2021, Pg. C33-C58    
 
 This paper illustrates the usefulness of sequential Monte Carlo (SMC) methods in approximating DSGE model posterior distributions. We show how the tempering schedule can be chosen adaptively, document the accuracy and runtime benefits of generalized data tempering for “online” estimation (that is, re-estimating a model as new data become available), and provide examples of multimodal posteriors that are well captured by SMC methods. We then use the online estimation of the DSGE model to compute pseudo-out-of-sample density forecasts and study the sensitivity of the predictive performance to changes in the prior distribution. We find that making priors less informative (compared to the benchmark priors used in the literature) by increasing the prior variance does not lead to a deterioration of forecast accuracy.  
 
