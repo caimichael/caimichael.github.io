@@ -7,7 +7,7 @@ permalink: /misc/
 Miscellaneous resources, reading, and other things I find cool.
 
 **Field Surveys/Literature Reviews/Primers**
-* [NBER Reporter](https:/www.nber.org/reporter/archive.html)
+* [NBER Reporter](https://www.nber.org/reporter-archives)
 * [Journal of Economic Perspectives](https://www.aeaweb.org/journals/jep)
 
 **Lecture Videos/Notes**
