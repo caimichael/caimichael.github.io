@@ -9,6 +9,9 @@ Education
 **Northwestern University** Weinberg College of Arts and Science  
 Ph.D. in Economics, August 2019 - Ongoing
 
+**Northwestern University** Weinberg College of Arts and Science  
+M.A. in Economics, June 2020  
+
 **New York University** Stern School of Business  
 B.S. in Business Economics with a minor in Mathematics, May 2017  
 Graduated *summa cum laude*
@@ -37,6 +40,9 @@ Working Papers
 Research and Teaching Experience
 ------------------
 **Northwestern University Department of Economics**  
+Research Assistant for Prof. Mattias Doepke, Fall 2021 - Ongoing
+
+**Northwestern University Department of Economics**  
 Research Assistant for Prof. Matt Rognlie, Summer 2020 - Ongoing
 
 **Federal Reserve Bank of New York**  
@@ -57,8 +63,9 @@ Estimating Heterogeneous Agent Dynamic Stochastic General Equilibrium (DSGE) Mod
 Award for Academic Excellence in Economics (Given to a single student in the undergraduate college)  
 Beta Gamma Sigma Honors Society
 
-Presentations
+Presentations and Conferences
 -------------
+Princeton Initiative: Macro, Money, and Finance. July 2021  
 ["Estimating Non-Linear Macroeconomic Models at the New York Fed,"](https://www.youtube.com/watch?v=dFyr8U-SY2M&list=PLP8iPy9hna6Qsq5_-zrg0NTwqDSDYtfQB&index=77) JuliaCon 2018, University College London, August 2018  
 
 
