@@ -8,6 +8,7 @@ layout: default
 <img src="/assets/profile.jpg" height="400" align="right"/>
 
 I am a third year PhD student in Economics at Northwestern University, pursuing research in macroeconomics with specific interests in monetary and fiscal policy as well as computational methods.
+
 I am currently on leave for 2022, serving as a Research Officer with the Development Macroeconomics Division of the Research Department at the International Monetary Fund (IMF).
 In this role, I am collaborating with Filiz Derya Unsal and Vu Chau to build quantitative macroeconomic models to understand the economic costs of climate change on developing economies and to analyze the trade-offs posed by various adaptation and mitigation policies.
 

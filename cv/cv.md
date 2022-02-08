@@ -39,7 +39,7 @@ Working Papers
 
 Research and Teaching Experience
 ------------------
-**International Monetary Fund**
+**International Monetary Fund**  
 Research Officer in the Development Macroeconomics Division of the Research Department, Winter 2022 - Ongoing
 
 **Northwestern University Department of Economics**  
