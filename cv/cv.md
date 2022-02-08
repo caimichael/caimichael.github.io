@@ -39,6 +39,9 @@ Working Papers
 
 Research and Teaching Experience
 ------------------
+**International Monetary Fund**
+Research Officer in the Development Macroeconomics Division of the Research Department, Winter 2022 - Ongoing
+
 **Northwestern University Department of Economics**  
 Research Assistant for Prof. Mattias Doepke, Fall 2021 - Ongoing
 
