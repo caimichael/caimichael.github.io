@@ -68,10 +68,10 @@ Beta Gamma Sigma Honors Society
 
 Presentations and Conferences
 -------------
-Teaching Assistant. NBER Heterogeneous-Agent Macro Workshop. June 2022:  
-[Program link](https://www.nber.org/conferences/heterogeneous-agent-macro-workshop-spring-2022)
+Teaching Assistant. NBER Heterogeneous-Agent Macro Workshop. June 2022:
+[Program link](https://www.nber.org/conferences/heterogeneous-agent-macro-workshop-spring-2022)  
 Attendee. Princeton Initiative: Macro, Money, and Finance. July 2021  
-Presenter. JuliaCon 2018, University College of London. August 2018. ["Estimating Non-Linear Macroeconomic Models at the New York Fed,"](https://www.youtube.com/watch?v=dFyr8U-SY2M&list=PLP8iPy9hna6Qsq5_-zrg0NTwqDSDYtfQB&index=77)  
+Presenter. JuliaCon 2018, University College of London. August 2018. ["Estimating Non-Linear Macroeconomic Models at the New York Fed"](https://www.youtube.com/watch?v=dFyr8U-SY2M&list=PLP8iPy9hna6Qsq5_-zrg0NTwqDSDYtfQB&index=77)  
 
 
 [1]: https://michaelcai.com/cv/
