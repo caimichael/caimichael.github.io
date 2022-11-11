@@ -7,7 +7,7 @@ layout: default
 
 <img src="/assets/profile.jpg" height="400" align="right"/>
 
-I am a third year PhD student in Economics at Northwestern University, pursuing research in macroeconomics with specific interests in monetary and fiscal policy as well as computational methods.
+I am a fourth year PhD student in Economics at Northwestern University, pursuing research in macroeconomics with specific interests in monetary and fiscal policy as well as computational methods.
 
 I work with [Matt Rognlie](https://sites.northwestern.edu/rognlie/), where I am helping to write software that implements the [Sequence Space Jacobian](https://shade-econ.github.io/sequence-jacobian/sequence_jacobian_paper.pdf) method for solving and estimating a wide class of heterogeneous agent general equilibrium models quickly. The Github repository for ongoing work on this software is linked [here](https://github.com/shade-econ/sequence-jacobian/tree/master).
 
