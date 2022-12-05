@@ -39,11 +39,8 @@ Working Papers
 
 Research and Teaching Experience
 ------------------
-**International Monetary Fund**  
-Research Officer in the Development Macroeconomics Division of the Research Department, Winter 2022 - Spring 2022
-
 **Northwestern University Department of Economics**  
-Research Assistant for Prof. Mattias Doepke, Fall 2021 - Winter 2021
+Research Assistant for Prof. Mattias Doepke, Fall 2021 - Ongoing
 
 **Northwestern University Department of Economics**  
 Research Assistant for Prof. Matt Rognlie, Summer 2020 - Summer 2021
