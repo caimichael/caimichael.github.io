@@ -16,7 +16,7 @@
 title: Michael Cai
 email: michael@michaelcai.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am an aspiring economist seeking to understand the forces that shape the evolution of the economy and the policies that can best support equitable growth.
+  I am an aspiring economist seeking to understand and model the evolution of the macroeconomy in response to novel events and policies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: michaeldcai
