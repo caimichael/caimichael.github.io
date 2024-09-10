@@ -1,6 +1,0 @@
-- How to develop your research interests
-    - Attend seminars at school (link NYU's macro lunch, BEPP, etc.)
-    - Read literature reviews
-    - Read research statements (Ufuk Akcigit, Laura Veldkamp, Johannes Stroebel)
-- History of the representative agent
-- History of rational expectations
