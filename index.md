@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<img src="/assets/profile.jpg" height="300" align="right" style="margin: 0.3cm;"/>
+<img src="/assets/profile_suit.jpg" height="350" align="right" style="margin: 0.3cm;"/>
 
 I am a sixth year PhD candidate in Economics at Northwestern University, with research interests in 
 
