@@ -4,20 +4,31 @@ title: Research
 permalink: /research/
 ---
 
-Published Papers
+Job Market Paper
+-----------------
+**Macro Inertia and the Variable Lags of Policy Transmission**  
+
+This paper quantifies the sources of macroeconomic inertia that policymakers can and cannot influence and analyzes how changes in systematic policy conduct can reduce inertial transmission ("lags"). To isolate policy-invariant inertia due to preferences and technologies, I introduce an approach to identifying parameters in dynamic structural models, which directly uses survey data on expectations in place of traditional assumptions on expectations. Applied to standard consumption-savings models, I find only two simple features are needed to match the dynamic response of consumption to shocks: 1) a high current MPC and 2) a low EIS. There is no need for classic sources of preference inertia, such as habits. In an estimated HANK model with learning disciplined by these estimates and expectations data, inertia emerges endogenously when a measure of belief feedback strength is high but is absent otherwise. This measure is large precisely when the current MPC is high and EIS is low. Stabilizing monetary and fiscal policy can reduce feedback, shortening transmission lags. Monetary-fiscal interactions produce a novel government debt stabilization motive to reduce lags: shortening the timeline for debt repayment diminishes belief feedback from past, stale expectations into future realized demand.  
+
+Selected Works in Progress
+-----------------
+**Optimal Long-Run Fiscal Policy with Heterogeneous Agents**  
+(with Adrien Auclert, Matt Rognlie, and Ludwig Straub)  
+
+We introduce a new method for characterizing the steady state of dynamic Ramsey problems,
+building on the dual approach to optimal taxation. Applying this method to standard calibrations
+of heterogeneous-agent models a la Aiyagari (1995), we find that in many cases Ramsey steady
+states do not exist, with our results suggesting that long-run immiseration is optimal instead.
+When Ramsey steady states do exist, they are associated with optimal long-run labor income
+taxes close to 100%. We show that these conclusions are related to strong anticipatory effects of future tax changes.  
+
+Publications
 --------------
-**[Online Estimation of DSGE Models](https://academic.oup.com/ectj/article/24/1/C33/5909595?login=true)**
-with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide  
+**[Online Estimation of DSGE Models](https://academic.oup.com/ectj/article/24/1/C33/5909595?login=true)**  
+(with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide)  
 *The Econometrics Journal*: Volume 24, Issue 1, Jan 2021, Pg. C33-C58    
 
-This paper illustrates the usefulness of sequential Monte Carlo (SMC) methods in approximating DSGE model posterior distributions. We show how the tempering schedule can be chosen adaptively, document the accuracy and runtime benefits of generalized data tempering for “online” estimation (that is, re-estimating a model as new data become available), and provide examples of multimodal posteriors that are well captured by SMC methods. We then use the online estimation of the DSGE model to compute pseudo-out-of-sample density forecasts and study the sensitivity of the predictive performance to changes in the prior distribution. We find that making priors less informative (compared to the benchmark priors used in the literature) by increasing the prior variance does not lead to a deterioration of forecast accuracy.  
-
 **[DSGE Forecasts of the Lost Recovery](https://www.sciencedirect.com/science/article/abs/pii/S0169207018302012?via%3Dihub)**  
-with Marco Del Negro, Marc P. Giannoni, Abhi Gupta, Pearl Li, & Erica Moszkowski  
+(with Marco Del Negro, Marc P. Giannoni, Abhi Gupta, Pearl Li, & Erica Moszkowski)  
 *International Journal of Forecasting*: Volume 35, Issue 4, Oct-Dec 2019, Pg. 1770-1789  
 Also available as a [Federal Reserve Bank of New York Staff Report](/files/sr844.pdf).
-
-The years following the Great Recession were challenging for forecasters. Unlike other deep downturns, this recession was not followed by a swift recovery, but generated a sizable and persistent output gap that was not accompanied by deflation as a traditional Phillips curve relationship would have predicted. Moreover, the zero lower bound and unconventional monetary policy generated an unprecedented policy environment. We document the real real-time forecasting performance of the New York Fed dynamic stochastic general equilibrium (DSGE) model during this period and explain the results using the pseudo real-time forecasting performance results from a battery of DSGE models. We find the New York Fed DSGE model's forecasting accuracy to be comparable to that of private forecasters and notably better, for output growth, than the median forecasts from the Federal Open Market Committee's Summary of Economic Projections. The model's financial frictions were key in obtaining these results as they implied a slow recovery following the financial crisis.
-
-Working Papers
------------------
