@@ -27,14 +27,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-nav:
-  - title: About
-    url: /
-  - title: CV
-    url: /files/cai_cv.pdf
-  - title: Research
-    url: /research/
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
