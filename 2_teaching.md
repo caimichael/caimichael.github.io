@@ -6,7 +6,7 @@ permalink: /teaching/
 
 I served as the teaching assistant for the National Bureau of Economic Research's
 [**Heterogeneous Agent Macro Workshop**](https://www.nber.org/conferences/heterogeneous-agent-macro-workshop-spring-2022) 
-in the spring of 2022, co-taught with Adrien Auclert, Bence Bard{\'o}czy, Matthew Rognlie, and Ludwig Straub.  
+in the spring of 2022, co-taught with Adrien Auclert, Bence Bardóczy, Matthew Rognlie, and Ludwig Straub.  
 
 The Github repository containing lecture materials and code is linked [here](https://github.com/shade-econ/nber-workshop-2022).
 
