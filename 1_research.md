@@ -8,7 +8,23 @@ Job Market Paper
 -----------------
 **Macro Inertia and the Variable Lags of Policy Transmission**  
 
-This paper quantifies the sources of macroeconomic inertia that policymakers can and cannot influence and analyzes how changes in systematic policy conduct can reduce inertial transmission ("lags"). To isolate policy-invariant inertia due to preferences and technologies, I introduce an approach to identifying parameters in dynamic structural models, which directly uses survey data on expectations in place of traditional assumptions on expectations. Applied to standard consumption-savings models, I find only two simple features are needed to match the dynamic response of consumption to shocks: 1) a high current MPC and 2) a low EIS. There is no need for classic sources of preference inertia, such as habits. In an estimated HANK model with learning disciplined by these estimates and expectations data, inertia emerges endogenously when a measure of belief feedback strength is high but is absent otherwise. This measure is large precisely when the current MPC is high and EIS is low. Stabilizing monetary and fiscal policy can reduce feedback, shortening transmission lags. Monetary-fiscal interactions produce a novel government debt stabilization motive to reduce lags: shortening the timeline for debt repayment diminishes belief feedback from past, stale expectations into future realized demand.  
+This paper quantifies the sources of macroeconomic inertia that are within and outside
+of policymakers’ influence and uncovers novel mechanisms for how policy rules can reduce
+inertial policy transmission (“lags”). I introduce an approach to parameter identification in
+dynamic structural models, replacing traditional assumptions on expectation formation with
+expectations data. This permits the decomposition of inertia due to policy-invariant primitives,
+such as preferences and technologies, from that due to policy-variant expectations. Applied to
+textbook consumption-savings models, I find no empirical support for classic sources of pref-
+erence inertia, such as habits. Instead, only three simple features are required to jointly match
+consumption and expectations data: 1) a high current MPC ≃ 0.2, 2) a low EIS ≃ 0.1, and 3)
+persistent over-extrapolation of expectations. I then study policy counterfactuals in a HANK
+model with Bayesian learning, disciplined by these findings. Inertia emerges endogenously
+when a measure of “belief feedback” is high, occurring precisely when the current MPC is high
+and EIS is low. Otherwise, inertia is absent. Responsive monetary and fiscal policy shortens
+transmission lags by reducing effective “feedback”. In turn, monetary-fiscal interactions re-
+sult in a novel government debt stabilization motive: shortening the debt repayment timeline
+diminishes belief feedback from inertial past expectations into future realized demand.  
+
 
 Selected Works in Progress
 -----------------
