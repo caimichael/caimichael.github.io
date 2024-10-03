@@ -6,25 +6,21 @@ permalink: /research/
 
 Job Market Paper
 -----------------
-**Macro Inertia and the Variable Lags of Policy Transmission**  
+**HANK with Actual Expectations**  
 
-This paper quantifies the sources of macroeconomic inertia that are within and outside
-of policymakers’ influence and uncovers novel mechanisms for how policy rules can reduce
-inertial policy transmission (“lags”). I introduce an approach to parameter identification in
-dynamic structural models, replacing traditional assumptions on expectation formation with
-expectations data. This permits the decomposition of inertia due to policy-invariant primitives,
-such as preferences and technologies, from that due to policy-variant expectations. Applied to
-textbook consumption-savings models, I find no empirical support for classic sources of pref-
-erence inertia, such as habits. Instead, only three simple features are required to jointly match
-consumption and expectations data: 1) a high current MPC ≃ 0.2, 2) a low EIS ≃ 0.1, and 3)
-persistent over-extrapolation of expectations. I then study policy counterfactuals in a HANK
-model with Bayesian learning, disciplined by these findings. Inertia emerges endogenously
-when a measure of “belief feedback” is high, occurring precisely when the current MPC is high
-and EIS is low. Otherwise, inertia is absent. Responsive monetary and fiscal policy shortens
-transmission lags by reducing effective “feedback”. In turn, monetary-fiscal interactions re-
-sult in a novel government debt stabilization motive: shortening the debt repayment timeline
-diminishes belief feedback from inertial past expectations into future realized demand.  
-
+Replacing traditional assumptions on expectation formation with expectations data, I show
+that canonical heterogeneous agent models without further modification can match a core business cycle fact: the inertial response of aggregate consumption to macroeconomic shocks.
+Systematic patterns of expectational errors in the data do not neatly conform to many existing
+theories of expectation formation, both full-information rational expectations (FIRE) and those
+uniformly predicting under- or over-reaction relative to FIRE. Expectations formed with a
+simple model of Bayesian learning can match these patterns. I analyze the determinants of
+aggregate consumption inertia in a stylized heterogeneous agent New Keynesian model with learning
+and document a novel mechanism that inertia changes with systematic policy conduct.
+In other words, lags are variable. In this model, inertia emerges when certain “belief feedback”
+measures, functions of household elasticities and policy rule responsiveness, are large.
+Monetary-fiscal interactions produce a new government debt stabilization channel for
+reducing lags: shortening the debt repayment timeline diminishes “belief feedback” from inertial
+past expectations into future realized demand.  
 
 Selected Works in Progress
 -----------------
