@@ -8,19 +8,19 @@ Job Market Paper
 -----------------
 **HANK with Actual Expectations**  
 
-Replacing traditional assumptions on expectation formation with expectations data, I show
-that canonical heterogeneous agent models without further modification can match a core business cycle fact: the inertial response of aggregate consumption to macroeconomic shocks.
-Systematic patterns of expectational errors in the data do not neatly conform to many existing
-theories of expectation formation, both full-information rational expectations (FIRE) and those
-uniformly predicting under- or over-reaction relative to FIRE. Expectations formed with a
-simple model of Bayesian learning can match these patterns. I analyze the determinants of
-aggregate consumption inertia in a stylized heterogeneous agent New Keynesian model with learning
-and document a novel mechanism that inertia changes with systematic policy conduct.
-In other words, lags are variable. In this model, inertia emerges when certain “belief feedback”
-measures, functions of household elasticities and policy rule responsiveness, are large.
-Monetary-fiscal interactions produce a new government debt stabilization channel for
-reducing lags: shortening the debt repayment timeline diminishes “belief feedback” from inertial
-past expectations into future realized demand.  
+A key aspect of business cycles is the sluggish response of aggregate variables to 
+macroeconomic shocks. This inertia interests researchers, as many HANK models struggle to replicate
+it, and policymakers because it complicates the timing of interventions. I show that canonical 
+perpetual youth and standard incomplete markets models — the core of modern HANK models —
+can match this fact simply by replacing traditional assumptions on expectation formation with
+expectations data. Although many existing theories of expectation formation fail to match 
+patterns of forecast errors observed in expectations data, a simple model of Bayesian learning
+can explain them. Building on this, I characterize the mechanisms that produce inertia in a
+stylized HANK model with learning and offer a new perspective on two core dimensions of
+policy choice 1) responsiveness to fluctuations, e.g. the slope of the Taylor rule, and 2) length
+of time government debt is rolled over. Changing policy along these dimensions alters inertia
+in shock transmission through an expectations anchoring channel, offering a novel explanation
+for transmission lags and how to shorten them.  
 
 Selected Works in Progress
 -----------------
