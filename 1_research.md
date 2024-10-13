@@ -6,21 +6,19 @@ permalink: /research/
 
 Job Market Paper
 -----------------
-**HANK with Actual Expectations**  
+**HANK with Actual Expectations Solves the Persistence Puzzle**  
 
-A key aspect of business cycles is the sluggish response of aggregate variables to 
-macroeconomic shocks. This inertia interests researchers, as many HANK models struggle to replicate
-it, and policymakers because it complicates the timing of interventions. I show that canonical 
-perpetual youth and standard incomplete markets models — the core of modern HANK models —
-can match this fact simply by replacing traditional assumptions on expectation formation with
-expectations data. Although many existing theories of expectation formation fail to match 
-patterns of forecast errors observed in expectations data, a simple model of Bayesian learning
-can explain them. Building on this, I characterize the mechanisms that produce inertia in a
-stylized HANK model with learning and offer a new perspective on two core dimensions of
-policy choice 1) responsiveness to fluctuations, e.g. the slope of the Taylor rule, and 2) length
-of time government debt is rolled over. Changing policy along these dimensions alters inertia
-in shock transmission through an expectations anchoring channel, offering a novel explanation
-for transmission lags and how to shorten them.  
+Inertial responses of aggregate variables to unexpected shocks is a key business cycle fact.
+Textbook macroeconomic models lack mechanisms that enhance the persistence of shocks and
+thus struggle to rationalize this fact without additional features. I show that perpetual youth
+and standard incomplete markets models — the core of modern HANK models — can match
+this fact with one simple change: replace model expectations with expectations data.
+Many existing theories of expectation formation cannot match patterns of bias in expectations data but
+a simple Bayesian learning model can explain them. Building on this, I characterize a novel
+mechanism that produces endogenous persistence in HANK models with learning. Inertia
+results from delayed amplification of an initial shock due to the gradual unanchoring of
+expectations. I consider two key dimensions of systematic policy 1) responsiveness to fluctuations,
+e.g. the slope of the Taylor rule, and 2) time length of government debt rollover and show that the length of lags vary with these choices.  
 
 Selected Works in Progress
 -----------------
