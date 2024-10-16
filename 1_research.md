@@ -8,17 +8,20 @@ Job Market Paper
 -----------------
 **HANK with Actual Expectations Solves the Persistence Puzzle**  
 
-Inertial responses of aggregate variables to unexpected shocks is a key business cycle fact.
-Textbook macroeconomic models lack mechanisms that enhance the persistence of shocks and
-thus struggle to rationalize this fact without additional features. I show that perpetual youth
-and standard incomplete markets models — the core of modern HANK models — can match
-this fact with one simple change: replace model expectations with expectations data.
-Many existing theories of expectation formation cannot match patterns of bias in expectations data but
-a simple Bayesian learning model can explain them. Building on this, I characterize a novel
-mechanism that produces endogenous persistence in HANK models with learning. Inertia
-results from delayed amplification of an initial shock due to the gradual unanchoring of
-expectations. I consider two key dimensions of systematic policy 1) responsiveness to fluctuations,
-e.g. the slope of the Taylor rule, and 2) time length of government debt rollover and show that the length of lags vary with these choices.  
+The inertial response of aggregate variables to sudden shocks is a fact that many
+macroeconomic models struggle to explain. While several theories of bounded rationality have been
+proposed to justify this inertia, no consensus has emerged among them. I show canonical
+heterogeneous agent models — Blanchard (1985) perpetual youth and Bewley (1986)
+incomplete markets — can match this fact by directly using expectations data instead of model-based
+expectations within a semi-structural estimation framework. To analyze the determinants and
+policy implications of macroeconomic inertia, I then adopt a model of boundedly-rational Bayesian
+learning, which can explain patterns of forecast errors in expectations data that prior theories
+struggle to account for. Incorporating this into a heterogeneous-agent New Keynesian (HANK)
+environment, I provide a theory for how inertia arises endogenously. Inertia occurs due to
+delayed amplification of an initial shock and persists due to self-reinforcing expectations that
+gradually unanchor. I consider two dimensions of government policy 1) responsiveness to
+fluctuations, e.g. the slope of the Taylor rule, and 2) speed of government debt repayment and
+show how systematic changes along these dimensions can reduce the degree of inertia.  
 
 Selected Works in Progress
 -----------------
