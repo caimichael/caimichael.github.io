@@ -6,22 +6,23 @@ permalink: /research/
 
 Job Market Paper
 -----------------
-**HANK with Actual Expectations Solves the Persistence Puzzle**  
+**Explaining the Macroeconomic Inertia Puzzle**  
 
-The inertial response of aggregate variables to sudden shocks is a fact that many
-macroeconomic models struggle to explain. While several theories of bounded rationality have been
-proposed to justify this inertia, no consensus has emerged among them. I show canonical
-heterogeneous agent models — Blanchard (1985) perpetual youth and Bewley (1986)
-incomplete markets — can match this fact by directly using expectations data instead of model-based
-expectations within a semi-structural estimation framework. To analyze the determinants and
-policy implications of macroeconomic inertia, I then adopt a model of boundedly-rational Bayesian
-learning, which can explain patterns of forecast errors in expectations data that prior theories
-struggle to account for. Incorporating this into a heterogeneous-agent New Keynesian (HANK)
-environment, I provide a theory for how inertia arises endogenously. Inertia occurs due to
-delayed amplification of an initial shock and persists due to self-reinforcing expectations that
-gradually unanchor. I consider two dimensions of government policy 1) responsiveness to
-fluctuations, e.g. the slope of the Taylor rule, and 2) speed of government debt repayment and
-show how systematic changes along these dimensions can reduce the degree of inertia.  
+The inertial response of aggregate variables to sudden shocks and changes in policy is a
+fact that many macroeconomic models struggle to explain. While several theories of bounded
+rationality have been proposed to justify this inertia, no consensus has emerged among them.
+I show canonical heterogeneous agent models — Blanchard (1985) perpetual youth and
+Bewley (1986) incomplete markets — can match this fact by directly using expectations data in
+place of model-based expectations within a semi-structural estimation framework. To analyze
+the determinants and policy implications of macroeconomic inertia, I then adopt a model of
+boundedly-rational Bayesian learning, which can explain patterns of forecast errors in
+expectations data that prior theories struggle to account for. Incorporating this into a heterogeneous-
+agent New Keynesian environment, I provide a theory for how inertia arises endogenously.
+Inertia occurs due to delayed amplification of an initial shock and persists due to self-reinforcing
+expectations that gradually unanchor. I consider two dimensions of government policy
+1) responsiveness to fluctuations, e.g. the slope of the Taylor rule, and 2) speed of government debt
+repayment and show how systematic changes along these dimensions can reduce the degree
+of inertia.  
 
 Selected Works in Progress
 -----------------
