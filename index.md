@@ -11,7 +11,6 @@ I am a sixth year PhD candidate in Economics at Northwestern University, with re
 
 - Macroeconomics
 - Behavioral Economics
-- Time-series Econometrics
 
 <b> I will be on the 2024-2025 academic job market. </b> 
 
