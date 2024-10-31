@@ -24,7 +24,7 @@ expectations that gradually unanchor. I consider two dimensions of government po
 repayment and show how systematic changes along these dimensions can reduce the degree
 of inertia.  
 
-Selected Works in Progress
+Working Papers
 -----------------
 **Optimal Long-Run Fiscal Policy with Heterogeneous Agents**  
 (with Adrien Auclert, Matt Rognlie, and Ludwig Straub)  
