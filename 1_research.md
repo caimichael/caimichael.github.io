@@ -6,7 +6,7 @@ permalink: /research/
 
 Job Market Paper
 -----------------
-**Explaining the Macroeconomic Inertia Puzzle**  
+**[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**  
 
 The inertial response of aggregate variables to sudden shocks and changes in policy is a
 fact that many macroeconomic models struggle to explain. While several theories of bounded
@@ -26,7 +26,7 @@ of inertia.
 
 Working Papers
 -----------------
-**Optimal Long-Run Fiscal Policy with Heterogeneous Agents**  
+**[Optimal Long-Run Fiscal Policy with Heterogeneous Agents](/files/rss_heterogeneity.pdf)**  
 (with Adrien Auclert, Matt Rognlie, and Ludwig Straub)  
 
 We introduce a new method for characterizing the steady state of dynamic Ramsey problems,
