@@ -21,7 +21,7 @@ this form of learning into a standard heterogeneous-agent New Keynesian environm
 I provide a theory for how inertia arises endogenously. Inertia results when the equilibrium
 amplification of an initial shock exceeds expectations, causing them to slowly unanchor. This
 theory yields a novel drawback for inertial monetary policy rules and delayed financing of
-fiscal deficits. Policy regimes that act more gradually result in longer transmission lags.  
+fiscal deficits: Policy regimes that act more gradually result in longer transmission lags.  
 
 Working Papers
 -----------------
