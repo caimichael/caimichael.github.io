@@ -12,9 +12,7 @@ I am a sixth year PhD candidate in Economics at Northwestern University, with re
 - Macroeconomics
 - Behavioral Economics
 
-<b> I will be on the 2024-2025 academic job market. </b> 
-
-You can download my CV [here](/files/MichaelCai_CV.pdf). 
+<em> In September 2025, I will be joining the Rutgers University Department of Economics as an Assistant Professor.</em> 
 
 I am fortunate to be an [NBER Dissertation Fellow in Behavioral Macroeconomics](https://www.nber.org/career-resources/postdoctoral-and-graduate-fellows-academic-year-2023-24) and a Visiting Scholar at the [Chicago Fed](https://www.chicagofed.org/research/index) for the 2024-2025 academic year. 
 
