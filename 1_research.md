@@ -6,26 +6,15 @@ permalink: /research/
 
 Job Market Paper
 -----------------
-**[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**  
-
+**[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**
 <div class="paper">
   <details>
     <summary class="btn-abstract">Abstract</summary>
     <div class="abstract-text">
-      Many macroeconomic models struggle to explain the sluggish response of aggregate variables
-      to sudden shocks and changes in policy. While numerous theories of adjustment frictions
-      and bounded rationality have been proposed to explain this macroeconomic inertia, no consensus
-      has emerged among them. I show that canonical heterogeneous-agent models—Blanchard
-      (1985) perpetual youth and Bewley (1986) incomplete markets—are consistent with aggregate
-      consumption inertia if agents’ average expectations of income and interest rates align with
-      survey expectations of these variables. To determine the causes and analyze the policy implications
-      of inertia, I adopt a model of frictional Bayesian learning which can explain patterns of
-      forecast errors in expectations data that existing theories struggle to account for. Incorporating
-      this form of learning into a standard heterogeneous-agent New Keynesian environment,
-      I provide a theory for how inertia arises endogenously. Inertia results when the equilibrium
-      amplification of an initial shock exceeds expectations, causing them to slowly unanchor. This
-      theory yields a novel drawback for inertial monetary policy rules and delayed financing of
-      fiscal deficits: Policy regimes that act more gradually result in longer transmission lags.
+    Benchmark macroeconomic models require additional frictions to explain the sluggish response of aggregate variables to sudden shocks or changes in policy. I show that standard heterogeneous-agent (HA) models—the Blanchard (1985) perpetual youth and Bewley (1986) incomplete markets models—are consistent with aggregate consumption inertia without the
+use of habit preferences or any specific model of expectation underreaction to dampen the
+responsiveness of consumption-savings decisions. I instead replicate observed consumption
+inertia in standard HA models by directly substituting survey expectations of income and interest rates for agents’ expectations. I propose a new theory of macroeconomic inertia that rationalizes the observed extrapolation bias in survey expectations by embedding an unobserved components model of expectations into a tractable HA general equilibrium environment. Inertia results when expectations imperfectly account for the equilibrium amplification of shocks, which is large in HA economies. This imperfect inference causes expectations to gradually unanchor as agents repeatedly misattribute large responses of equilibrium outcomes simply to larger shocks. This theory also illustrates a novel drawback to inertial monetary policy rules and the delayed financing of fiscal deficits: Policy regimes that act more gradually experience longer transmission lags due to their decreased effectiveness at anchoring expectations.
     </div>
   </details>
 </div>
