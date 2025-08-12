@@ -8,20 +8,27 @@ Job Market Paper
 -----------------
 **[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**  
 
-Many macroeconomic models struggle to explain the sluggish response of aggregate variables
-to sudden shocks and changes in policy. While numerous theories of adjustment frictions
-and bounded rationality have been proposed to explain this macroeconomic inertia, no consensus
-has emerged among them. I show that canonical heterogeneous-agent models—Blanchard
-(1985) perpetual youth and Bewley (1986) incomplete markets—are consistent with aggregate
-consumption inertia if agents’ average expectations of income and interest rates align with
-survey expectations of these variables. To determine the causes and analyze the policy implications
-of inertia, I adopt a model of frictional Bayesian learning which can explain patterns of
-forecast errors in expectations data that existing theories struggle to account for. Incorporating
-this form of learning into a standard heterogeneous-agent New Keynesian environment,
-I provide a theory for how inertia arises endogenously. Inertia results when the equilibrium
-amplification of an initial shock exceeds expectations, causing them to slowly unanchor. This
-theory yields a novel drawback for inertial monetary policy rules and delayed financing of
-fiscal deficits: Policy regimes that act more gradually result in longer transmission lags.  
+<div class="paper">
+  <details>
+    <summary class="btn-abstract">Abstract</summary>
+    <div class="abstract-text">
+      Many macroeconomic models struggle to explain the sluggish response of aggregate variables
+      to sudden shocks and changes in policy. While numerous theories of adjustment frictions
+      and bounded rationality have been proposed to explain this macroeconomic inertia, no consensus
+      has emerged among them. I show that canonical heterogeneous-agent models—Blanchard
+      (1985) perpetual youth and Bewley (1986) incomplete markets—are consistent with aggregate
+      consumption inertia if agents’ average expectations of income and interest rates align with
+      survey expectations of these variables. To determine the causes and analyze the policy implications
+      of inertia, I adopt a model of frictional Bayesian learning which can explain patterns of
+      forecast errors in expectations data that existing theories struggle to account for. Incorporating
+      this form of learning into a standard heterogeneous-agent New Keynesian environment,
+      I provide a theory for how inertia arises endogenously. Inertia results when the equilibrium
+      amplification of an initial shock exceeds expectations, causing them to slowly unanchor. This
+      theory yields a novel drawback for inertial monetary policy rules and delayed financing of
+      fiscal deficits: Policy regimes that act more gradually result in longer transmission lags.
+    </div>
+  </details>
+</div>
 
 Working Papers
 -----------------

@@ -1,0 +1,22 @@
+/* Abstract toggle styling */
+.btn-abstract {
+  display: inline-block;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--text-color, #333);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+}
+.btn-abstract::marker { content: ""; }        /* hide default marker in some browsers */
+.btn-abstract::-webkit-details-marker { display: none; }
+
+.paper details { margin: 0.5rem 0 1rem; }
+.abstract-text { margin-top: 0.75rem; line-height: 1.6; }
+
+/* Optional: change label when open */
+.paper details[open] .btn-abstract::after {
+  content: "  (hide)";
+  font-weight: 400;
+}
+
