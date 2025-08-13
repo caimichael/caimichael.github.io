@@ -9,7 +9,7 @@ layout: default
 
 I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics and bounded rationality. 
 
-I received my PhD in Economics from Northwestern University in 2025. In support of my research I have contributed to the following open-source projects broadly related to structural macroeconomic modeling 
+I received my PhD in Economics from Northwestern University in 2025. I have also contributed to a few open-source projects related to structural macroeconomic modeling 
 
 - [`sequence-jacobian`](https://github.com/shade-econ/sequence-jacobian) 
 - [`DSGE.jl`](https://github.com/FRBNY-DSGE/DSGE.jl) 
