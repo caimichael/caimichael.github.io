@@ -4,8 +4,9 @@ title: Research
 permalink: /research/
 ---
 
-Job Market Paper
+Working Papers
 -----------------
+
 **[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**
 <div class="paper">
   <details>
@@ -19,17 +20,22 @@ inertia in standard HA models by directly substituting survey expectations of in
   </details>
 </div>
 
-Working Papers
------------------
 **[Optimal Long-Run Fiscal Policy with Heterogeneous Agents](/files/rss_heterogeneity.pdf)**  
 (with Adrien Auclert, Matt Rognlie, and Ludwig Straub)  
 
-We introduce a new method for characterizing the steady state of dynamic Ramsey problems,
-building on the dual approach to optimal taxation. Applying this method to standard calibrations
-of heterogeneous-agent models a la Aiyagari (1995), we find that in many cases Ramsey steady
-states do not exist, with our results suggesting that long-run immiseration is optimal instead.
-When Ramsey steady states do exist, they are associated with optimal long-run labor income
-taxes close to 100%. We show that these conclusions are related to strong anticipatory effects of future tax changes.  
+<div class="paper">
+  <details>
+    <summary class="btn-abstract">Abstract</summary>
+    <div class="abstract-text">
+        We introduce a new method for characterizing the steady state of dynamic Ramsey problems,
+        building on the dual approach to optimal taxation. Applying this method to standard calibrations
+        of heterogeneous-agent models a la Aiyagari (1995), we find that in many cases Ramsey steady
+        states do not exist, with our results suggesting that long-run immiseration is optimal instead.
+        When Ramsey steady states do exist, they are associated with optimal long-run labor income
+        taxes close to 100%. We show that these conclusions are related to strong anticipatory effects of future tax changes.
+    </div>
+  </details>
+</div>
 
 Publications
 --------------
