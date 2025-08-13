@@ -7,7 +7,7 @@ permalink: /research/
 Working Papers
 -----------------
 
-**[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**
+**[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**  
 <div class="paper">
   <details>
     <summary class="btn-abstract">Abstract</summary>
@@ -18,11 +18,10 @@ responsiveness of consumption-savings decisions. I instead replicate observed co
 inertia in standard HA models by directly substituting survey expectations of income and interest rates for agents’ expectations. I propose a new theory of macroeconomic inertia that rationalizes the observed extrapolation bias in survey expectations by embedding an unobserved components model of expectations into a tractable HA general equilibrium environment. Inertia results when expectations imperfectly account for the equilibrium amplification of shocks, which is large in HA economies. This imperfect inference causes expectations to gradually unanchor as agents repeatedly misattribute large responses of equilibrium outcomes simply to larger shocks. This theory also illustrates a novel drawback to inertial monetary policy rules and the delayed financing of fiscal deficits: Policy regimes that act more gradually experience longer transmission lags due to their decreased effectiveness at anchoring expectations.
     </div>
   </details>
-</div>
+</div>  
 
 **[Optimal Long-Run Fiscal Policy with Heterogeneous Agents](/files/rss_heterogeneity.pdf)**  
-(with Adrien Auclert, Matt Rognlie, and Ludwig Straub)  
-
+(with Adrien Auclert, Matt Rognlie, and Ludwig Straub)
 <div class="paper">
   <details>
     <summary class="btn-abstract">Abstract</summary>
