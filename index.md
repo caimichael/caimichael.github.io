@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<img src="/assets/headshot_suit_crop_compressed.jpg" height="375" align="right" style="margin: 0.3cm;"/>  
+<img src="/assets/headshot_suit_crop_compressed.jpg" height="400" align="right" style="margin: 0.3cm;"/>  
 
 I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics and bounded rationality. 
 
