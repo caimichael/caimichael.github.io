@@ -319,7 +319,11 @@ a:hover {
     float: none;
     display: block;
     width: min(70vw, 210px);
-    margin: 0 0 1rem;
+    margin: 0 auto 1rem;
+  }
+
+  .home-copy p:first-child {
+    text-align: center;
   }
 }
 

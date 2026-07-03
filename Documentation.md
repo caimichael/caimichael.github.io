@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refine mobile homepage alignment.
+- Success criteria: on mobile, the profile image and opening homepage sentence are centered, while the rest of the homepage body copy remains left-aligned.
+- Decision: updated the existing max-width `700px` breakpoint to center the profile image with auto side margins and center only `.home-copy p:first-child`.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles the mobile breakpoint with centered profile image margins and `text-align: center` only for `.home-copy p:first-child`.
+- Deviations/blockers: none.
+
 - Milestone: rename Teaching date fields to terms.
 - Success criteria: Teaching metadata uses `Term` as the date field label, and the NBER term appears below the lighter `Co-taught with` field.
 - Decision: renamed the Rutgers and Northwestern `Years` fields to `Term`, changed the NBER `Year` value to `Term: Spring 2022`, and ordered the NBER term after the co-teacher metadata.
