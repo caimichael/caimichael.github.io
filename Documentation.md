@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refine body typography.
+- Success criteria: ordinary body and navigation text use a more distinctive readable sans-serif without adding an external font dependency.
+- Decision: introduced a `$body-font` stack preferring `Avenir Next`/`Avenir`, with Helvetica/Arial fallbacks, and applied it through the existing body font rule.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles the Avenir-first body font stack while preserving the existing serif rules for site title, section headings, homepage lead text, and paper titles.
+- Deviations/blockers: none.
+
 - Milestone: refine research item formatting and header spacing.
 - Success criteria: Work in Progress paper title uses the same title styling as other research entries, desktop header has more balanced vertical spacing, and nav links are larger.
 - Decision: added the `.paper-title` class to the Work in Progress entry and overrode Minima's desktop header float/line-height behavior with an explicit flex layout, larger nav text, and more vertical padding.

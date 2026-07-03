@@ -13,11 +13,12 @@ $secondary: #5f7f68;
 $paper: #f7fafb;
 $surface: #ffffff;
 $rule: #d8e3e7;
+$body-font: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 body {
   color: $ink;
   background: $paper;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: $body-font;
 }
 
 .wrapper {
