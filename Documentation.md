@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: align homepage intro line with body typography.
+- Success criteria: the opening homepage sentence uses the selected Avenir-style Option 2 treatment and the temporary intro style preview page is removed.
+- Decision: changed `.home-copy p:first-child` from the larger Georgia treatment to the body font stack at `1.12rem`, regular weight, with a slightly relaxed line height. Removed `intro-style-options.html` after selection.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles `.home-copy p:first-child` with the Avenir-first body stack, `font-size: 1.12rem`, regular weight, and no temporary `intro-style-options.html` page.
+- Deviations/blockers: none.
+
 - Milestone: apply selected site-title typography.
 - Success criteria: the top-left `Michael Cai` site title uses the selected regular-weight Baskerville option and the temporary font preview page is removed.
 - Decision: kept the existing Baskerville-first title stack and changed the site-title font weight from semibold to regular to reduce visual clunkiness. Removed `site-title-font-options.html` after the selection.

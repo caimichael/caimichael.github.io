@@ -130,9 +130,10 @@ a:hover {
 .home-copy p:first-child {
   margin-top: 0;
   color: $ink;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.28rem;
-  line-height: 1.48;
+  font-family: $body-font;
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 1.65;
 }
 
 .home-copy ul {
