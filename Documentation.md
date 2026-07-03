@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: rename Teaching date fields to terms.
+- Success criteria: Teaching metadata uses `Term` as the date field label, and the NBER term appears below the lighter `Co-taught with` field.
+- Decision: renamed the Rutgers and Northwestern `Years` fields to `Term`, changed the NBER `Year` value to `Term: Spring 2022`, and ordered the NBER term after the co-teacher metadata.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders `Term` under Rutgers and Northwestern course entries and renders NBER `Term: Spring 2022` below `Co-taught with`.
+- Deviations/blockers: none.
+
 - Milestone: move Teaching years into metadata fields.
 - Success criteria: Teaching section titles no longer include parenthetical years, each entry exposes its year information as a field, and the NBER co-teacher field remains visually lighter than standard metadata labels.
 - Decision: added `.teaching-meta` definition lists below each Teaching heading, using `Year`/`Years` labels as appropriate. Moved the NBER co-teacher list into the same metadata block with a `.teaching-meta-subtle` label treatment.

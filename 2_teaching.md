@@ -7,7 +7,7 @@ permalink: /teaching/
 ## Rutgers Econ 321: Intermediate Macroeconomic Analysis
 
 <dl class="teaching-meta">
-  <dt>Years</dt>
+  <dt>Term</dt>
   <dd>2025-2026</dd>
 </dl>
 
@@ -22,10 +22,10 @@ Some example topics from the class are
 ## NBER Heterogeneous-Agent Macro Workshop
 
 <dl class="teaching-meta">
-  <dt>Year</dt>
-  <dd>2022</dd>
   <dt class="teaching-meta-subtle">Co-taught with</dt>
   <dd>Adrien Auclert, Bence Bardóczy, Matthew Rognlie, and Ludwig Straub</dd>
+  <dt>Term</dt>
+  <dd>Spring 2022</dd>
 </dl>
 
 I served as the teaching assistant for the National Bureau of Economic Research's
@@ -43,7 +43,7 @@ Some example topics from the workshop are
 ## Northwestern Econ 311: Intermediate Macroeconomics
 
 <dl class="teaching-meta">
-  <dt>Years</dt>
+  <dt>Term</dt>
   <dd>2021, 2023</dd>
 </dl>
 
