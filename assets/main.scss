@@ -161,7 +161,7 @@ a:hover {
 
 .home-section,
 .contact-block {
-  margin-top: 2.1rem;
+  margin-top: 0.95rem;
 }
 
 .home-section h2,
@@ -170,6 +170,7 @@ a:hover {
 }
 
 .contact-block h2 {
+  margin-bottom: 0.7rem;
   font-size: 1.18rem;
 }
 
@@ -178,8 +179,39 @@ a:hover {
 }
 
 .contact-block {
-  padding-top: 1rem;
+  padding-top: 0.8rem;
   border-top: 1px solid $rule;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 1rem;
+  row-gap: 0.34rem;
+  margin: 0;
+}
+
+.contact-list dt {
+  color: $soft-muted;
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.contact-list dd {
+  margin: 0;
+}
+
+@media screen and (max-width: 520px) {
+  .contact-list {
+    display: block;
+  }
+
+  .contact-list dt {
+    margin-top: 0.55rem;
+  }
 }
 
 .paper-title {

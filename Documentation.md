@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: tighten homepage contact layout.
+- Success criteria: the Contact section sits closer to the open-source project list and the contact fields are visually distinct without bold labels.
+- Decision: moved Contact into the homepage copy flow after the software list, reduced the section spacing, and replaced bold/plain contact lines with a lightweight definition-list layout using small muted uppercase labels.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/index.html` renders Contact inside the homepage copy after the open-source project list, and `_site/assets/main.css` includes the tighter Contact spacing plus normal-weight muted uppercase contact labels.
+- Deviations/blockers: none.
+
 - Milestone: soften header and page background contrast.
 - Success criteria: the site uses the selected subtle blue-gray Option 1 pairing for body and header backgrounds while preserving the existing accent palette.
 - Decision: changed the page background to `#f6f9fa` and replaced the near-white translucent header with an explicit `#f2f7f8` header background token, making the blue-gray contrast visible while keeping it subdued.

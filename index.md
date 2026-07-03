@@ -28,13 +28,17 @@ layout: default
       <li><a href="https://github.com/FRBNY-DSGE/SMC.jl"><code>SMC.jl</code></a></li>
     </ul>
 
+    <section class="contact-block">
+      <h2>Contact</h2>
+      <dl class="contact-list">
+        <dt>Office</dt>
+        <dd>Room 415, New Jersey Hall, 75 Hamilton St, New Brunswick, NJ</dd>
+        <dt>Personal Email</dt>
+        <dd>michael [at] michaelcai [dot] com</dd>
+        <dt>School Email</dt>
+        <dd>michael [dot] cai [at] rutgers [dot] edu</dd>
+      </dl>
+    </section>
+
   </div>
-</section>
-
-<section class="contact-block" markdown="1">
-## Contact
-
-**Office:** Room 415, New Jersey Hall, 75 Hamilton St, New Brunswick, NJ  
-**Personal Email:** michael [at] michaelcai [dot] com  
-**School Email:** michael.cai [at] rutgers [dot] edu
 </section>
