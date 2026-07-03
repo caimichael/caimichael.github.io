@@ -1,0 +1,37 @@
+---
+---
+
+@import "minima";
+
+/* Abstract toggle styling */
+.btn-abstract {
+  display: inline-block;
+  padding: 0.1rem 0.8rem;
+  border: 1px solid var(--text-color, #333);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+}
+
+.btn-abstract::marker {
+  content: "";
+}
+
+.btn-abstract::-webkit-details-marker {
+  display: none;
+}
+
+.post-content details {
+  margin: 0.1rem 0 1rem;
+}
+
+.abstract-text {
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
+.post-content details[open] .btn-abstract::after {
+  content: "  (hide)";
+  font-weight: 400;
+}
