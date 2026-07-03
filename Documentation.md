@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: revise homepage contact information.
+- Success criteria: homepage contact sentence includes the Rutgers office address and a less directly scrapable email format.
+- Decision: kept the email readable for humans while replacing the literal address in `index.md` with `michael [at] michaelcai [dot] com`; this is a lightweight spam-reduction measure, not a guarantee against modern scrapers.
+- Validation: `bundle exec jekyll build` completed successfully. Confirmed `_site/index.html` renders the Room 415 contact sentence with `michael [at] michaelcai [dot] com`.
+- Deviations/blockers: none.
+
 - Milestone: remove lower footer identity/contact banner.
 - Success criteria: rendered pages no longer include the Minima footer block repeating the site title, email, Twitter handle, or GitHub handle.
 - Decision: added a local `_includes/footer.html` override that emits no footer content, instead of removing metadata from `_config.yml`.

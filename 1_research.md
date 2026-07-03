@@ -7,6 +7,34 @@ permalink: /research/
 Working Papers
 -----------------
 
+**[The Asset Market Channel of Market Power](/files/asset_market_channel.pdf)**  
+(with Dalton Rongxuan Zhang)  
+*Preliminary draft*  
+Last updated: July 2026
+{: .paper-title style="margin-bottom:.2rem"}
+
+<details style="margin-top:0">
+  <summary class="btn-abstract">Abstract</summary>
+  <div class="abstract-text">
+  Over four decades, U.S. market power has risen, interest rates have fallen, and wealth has
+concentrated at the top. We show that rising market power endogenously lowers equilibrium
+interest rates and raises top wealth shares in a model with (1) imperfectly elastic asset markets
+and (2) realistic destination of rents. The key implication is an asset market channel through
+which higher markups generate two opposing forces: redistribution and asset creation. For
+redistribution, higher markups reallocate income from wages earned by low-saving workers to
+profits earned by high-saving business owners, increasing aggregate asset demand. For asset
+creation, a portion of market-power profits is capitalized into publicly traded equity claims,
+increasing asset supply. We derive an analytical expression, as a function of sufficient statistics,
+such as factor shares, the traded share of profits and asset demand elasticities, to quantify
+and decompose the effect. In the data, the redistribution effect dominates the asset creation.
+Along the transition path that matches the observed increase in aggregate markups, equilibrium
+interest rates fall by 220 basis points, the top-1% wealth share rises, and real output is essentially
+unchanged, whereas output falls by 15% in the representative-agent benchmark. These results
+suggest that the costs of market power may arise primarily from wealth concentration rather
+than from output distortions.
+  </div>
+</details>
+
 **[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**  
 Last updated: July 2025
 {: .paper-title style="margin-bottom:.2rem"}
@@ -37,6 +65,12 @@ Last updated: September 2024
   taxes close to 100%. We show that these conclusions are related to strong anticipatory effects of future tax changes.
   </div>
 </details>
+
+Work in Progress
+--------------
+
+**When Lagged Observables Can (And Should) Be Used as Instruments**  
+(with Andrea Ferrara)  
 
 Publications
 --------------

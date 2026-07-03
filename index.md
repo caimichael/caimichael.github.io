@@ -7,12 +7,16 @@ layout: default
 
 <img src="/assets/new_profile.png" height="475" align="right" style="margin: 0.3cm;"/>  
 
-I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics and bounded rationality. 
+I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics, bounded rationality, and time-series 
+econometrics.
 
-I received my PhD in Economics from Northwestern University in 2025. I have also contributed to a few open-source projects related to structural macroeconomic modeling 
+I have also contributed to open-source projects related to structural macroeconomic modeling 
 
 - [`sequence-jacobian`](https://github.com/shade-econ/sequence-jacobian) 
 - [`DSGE.jl`](https://github.com/FRBNY-DSGE/DSGE.jl) 
 - [`StateSpaceRoutines.jl`](https://github.com/FRBNY-DSGE/StateSpaceRoutines.jl) 
 - [`SMC.jl`](https://github.com/FRBNY-DSGE/SMC.jl) 
 
+My office is Room 415 in New Jersey Hall, 75 Hamilton St, New Brunswick, NJ. 
+
+You can reach me by email at michael [at] michaelcai [dot] com.
