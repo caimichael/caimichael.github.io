@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refactor site presentation.
+- Success criteria: homepage uses responsive image and clearer intro/software/contact sections; research entries use shared classes instead of inline spacing; generated local files are ignored.
+- Decision: kept the Minima theme and existing content, but moved visual presentation into `assets/main.scss` and added lightweight academic-site hierarchy rather than a more decorative redesign.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/index.html`, `_site/research/index.html`, and `_site/assets/main.css` contain the new homepage/research classes and no research-page inline spacing styles.
+- Deviations/blockers: none.
+
 - Milestone: revise homepage contact information.
 - Success criteria: homepage contact sentence includes the Rutgers office address and a less directly scrapable email format.
 - Decision: kept the email readable for humans while replacing the literal address in `index.md` with `michael [at] michaelcai [dot] com`; this is a lightweight spam-reduction measure, not a guarantee against modern scrapers.

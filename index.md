@@ -5,10 +5,18 @@
 layout: default
 ---
 
-<img src="/assets/new_profile.png" height="475" align="right" style="margin: 0.3cm;"/>  
+<section class="home-intro">
+  <img src="/assets/new_profile.png" alt="Michael Cai" class="profile-photo">
+  <div class="home-copy" markdown="1">
 
 I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics, bounded rationality, and time-series 
 econometrics.
+
+  </div>
+</section>
+
+<section class="home-section" markdown="1">
+## Software
 
 I have also contributed to open-source projects related to structural macroeconomic modeling 
 
@@ -17,6 +25,11 @@ I have also contributed to open-source projects related to structural macroecono
 - [`StateSpaceRoutines.jl`](https://github.com/FRBNY-DSGE/StateSpaceRoutines.jl) 
 - [`SMC.jl`](https://github.com/FRBNY-DSGE/SMC.jl) 
 
-My office is Room 415 in New Jersey Hall, 75 Hamilton St, New Brunswick, NJ. 
+</section>
 
-You can reach me by email at michael [at] michaelcai [dot] com.
+<section class="contact-block" markdown="1">
+## Contact
+
+**Office:** Room 415, New Jersey Hall, 75 Hamilton St, New Brunswick, NJ  
+**Email:** michael [at] michaelcai [dot] com
+</section>

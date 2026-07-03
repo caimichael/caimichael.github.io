@@ -3,14 +3,91 @@
 
 @import "minima";
 
-/* Abstract toggle styling */
+body {
+  color: #24292f;
+}
+
+.post-content {
+  line-height: 1.65;
+}
+
+.post-content h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1.35rem;
+}
+
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
+  gap: 2rem;
+  align-items: start;
+}
+
+.home-copy p:first-child {
+  margin-top: 0;
+}
+
+.profile-photo {
+  width: min(100%, 250px);
+  height: auto;
+  justify-self: end;
+  border-radius: 4px;
+}
+
+.home-section,
+.contact-block {
+  margin-top: 2rem;
+}
+
+.home-section h2,
+.contact-block h2 {
+  margin-top: 0;
+}
+
+.home-section ul {
+  margin-top: 0.4rem;
+}
+
+.contact-block {
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.paper-title {
+  margin-top: 1.65rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.45;
+}
+
+.post-content h2 + .paper-title {
+  margin-top: 0;
+}
+
+.paper-title strong {
+  font-size: 1.05rem;
+}
+
+.paper-title em {
+  color: #5f6b7a;
+}
+
+.paper-abstract {
+  margin: 0 0 1.2rem;
+}
+
 .btn-abstract {
   display: inline-block;
-  padding: 0.1rem 0.8rem;
-  border: 1px solid var(--text-color, #333);
-  border-radius: 8px;
+  padding: 0.12rem 0.65rem;
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  color: #4b5563;
+  background: #f8fafc;
   cursor: pointer;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 500;
   user-select: none;
 }
 
@@ -22,16 +99,25 @@
   display: none;
 }
 
-.post-content details {
-  margin: 0.1rem 0 1rem;
-}
-
 .abstract-text {
-  margin-top: 0.75rem;
-  line-height: 1.6;
+  margin-top: 0.8rem;
+  color: #374151;
+  line-height: 1.65;
 }
 
-.post-content details[open] .btn-abstract::after {
+.paper-abstract[open] .btn-abstract::after {
   content: "  (hide)";
   font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  .home-intro {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .profile-photo {
+    width: min(70vw, 220px);
+    justify-self: start;
+  }
 }
