@@ -3,28 +3,151 @@
 
 @import "minima";
 
+$ink: #23201d;
+$muted: #655f58;
+$soft-muted: #81786f;
+$accent: #8f1d2c;
+$accent-dark: #681321;
+$accent-soft: #f7e9eb;
+$secondary: #2f6f73;
+$paper: #fbfaf7;
+$surface: #ffffff;
+$rule: #e4ddd3;
+
 body {
-  color: #24292f;
+  color: $ink;
+  background: $paper;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+.site-header {
+  min-height: 0;
+  border-top: 3px solid $accent;
+  border-bottom: 1px solid $rule;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.site-title,
+.site-title:visited {
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.site-nav .page-link {
+  color: $muted;
+  font-size: 0.95rem;
+}
+
+.site-nav .page-link:hover {
+  color: $accent;
+  text-decoration: none;
+}
+
+.site-nav .page-link::after {
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: 0.1rem;
+  background: $accent;
+  content: "";
+  transition: width 140ms ease;
+}
+
+.site-nav .page-link:hover::after {
+  width: 100%;
+}
+
+.page-content {
+  padding-top: 2.5rem;
+}
+
+a,
+a:visited {
+  color: $accent;
+}
+
+a:hover {
+  color: $accent-dark;
+  text-decoration-color: $accent;
+}
+
+.post-title {
+  display: none;
 }
 
 .post-content {
-  line-height: 1.65;
+  color: $ink;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 .post-content h2 {
-  margin-top: 2.25rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid #e5e7eb;
-  font-size: 1.35rem;
+  position: relative;
+  margin-top: 2.45rem;
+  margin-bottom: 1.05rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid $rule;
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.42rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.post-content h2::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 4.4rem;
+  height: 2px;
+  background: $accent;
+  content: "";
+}
+
+.post-content ul {
+  margin-left: 1.25rem;
+}
+
+.post-content li {
+  margin-bottom: 0.35rem;
+}
+
+.post-content li::marker {
+  color: $secondary;
 }
 
 .home-intro {
+  padding-bottom: 0.35rem;
   text-align: left;
+}
+
+.home-intro::after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
 .home-copy p:first-child {
   margin-top: 0;
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.28rem;
+  line-height: 1.48;
+}
+
+.home-copy ul {
+  margin-top: -0.25rem;
+}
+
+.home-copy li {
+  padding-left: 0.1rem;
 }
 
 .profile-photo {
@@ -32,12 +155,14 @@ body {
   width: 220px;
   height: auto;
   margin: 0.1rem 0 1rem 1.75rem;
-  border-radius: 4px;
+  border: 1px solid $rule;
+  border-radius: 6px;
+  box-shadow: 0 10px 24px rgba(35, 32, 29, 0.1);
 }
 
 .home-section,
 .contact-block {
-  margin-top: 2rem;
+  margin-top: 2.1rem;
 }
 
 .home-section h2,
@@ -51,11 +176,11 @@ body {
 
 .contact-block {
   padding-top: 1rem;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid $rule;
 }
 
 .paper-title {
-  margin-top: 1.65rem;
+  margin-top: 1.9rem;
   margin-bottom: 0.25rem;
   line-height: 1.45;
 }
@@ -65,28 +190,36 @@ body {
 }
 
 .paper-title strong {
-  font-size: 1.05rem;
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.13rem;
+  font-weight: 600;
 }
 
 .paper-title em {
-  color: #5f6b7a;
+  color: $soft-muted;
 }
 
 .paper-abstract {
-  margin: 0 0 1.2rem;
+  margin: 0 0 1.35rem;
 }
 
 .btn-abstract {
   display: inline-block;
-  padding: 0.12rem 0.65rem;
-  border: 1px solid #d0d7de;
+  padding: 0.08rem 0.62rem;
+  border: 1px solid rgba($accent, 0.34);
   border-radius: 999px;
-  color: #4b5563;
-  background: #f8fafc;
+  color: $accent-dark;
+  background: rgba(255, 255, 255, 0.75);
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   font-weight: 500;
   user-select: none;
+}
+
+.btn-abstract:hover {
+  border-color: rgba($accent, 0.65);
+  background: $accent-soft;
 }
 
 .btn-abstract::marker {
@@ -98,17 +231,32 @@ body {
 }
 
 .abstract-text {
-  margin-top: 0.8rem;
-  color: #374151;
+  margin-top: 0.85rem;
+  padding-left: 1rem;
+  border-left: 2px solid $rule;
+  color: #3f3a35;
   line-height: 1.65;
 }
 
 .paper-abstract[open] .btn-abstract::after {
-  content: "  (hide)";
+  content: " -";
+  font-weight: 400;
+}
+
+.paper-abstract:not([open]) .btn-abstract::after {
+  content: " +";
   font-weight: 400;
 }
 
 @media screen and (max-width: 700px) {
+  .page-content {
+    padding-top: 1.7rem;
+  }
+
+  .site-nav .page-link::after {
+    display: none;
+  }
+
   .profile-photo {
     float: none;
     display: block;

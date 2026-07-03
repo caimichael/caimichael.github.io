@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: make the site visual design less generic.
+- Success criteria: default Minima blue-link/basic-header feel is replaced with a more distinctive palette, typography, header treatment, research-entry styling, and the large stock page titles are removed from the top of the Research and Teaching pages.
+- Decision: kept the existing Jekyll/Minima structure, but added a warmer page background, burgundy accent links, serif headings/paper titles, refined navigation hover states, custom abstract toggles, and hid `.post-title` to remove the oversized generated page headers.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` contains the new palette, typography, header, title-hiding, and abstract-button rules; confirmed `_site/research/index.html` and `_site/teaching/index.html` still generate page metadata while relying on `.post-title` styling to hide the oversized visible page titles.
+- Deviations/blockers: none.
+
 - Milestone: correct work-in-progress paper title capitalization.
 - Success criteria: the research page uses standard title case for the parenthetical phrase in `When Lagged Observables Can (and Should) Be Used as Instruments`.
 - Decision: lowercased the coordinating conjunction `and` inside the parenthetical while leaving the rest of the title in title case.
