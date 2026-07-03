@@ -6,13 +6,13 @@ layout: default
 ---
 
 <section class="home-intro">
+  <img src="/assets/new_profile.png" alt="Michael Cai" class="profile-photo">
   <div class="home-copy" markdown="1">
 
 I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics, bounded rationality, and time-series 
 econometrics.
 
   </div>
-  <img src="/assets/new_profile.png" alt="Michael Cai" class="profile-photo">
 </section>
 
 <section class="home-section" markdown="1">

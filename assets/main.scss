@@ -20,11 +20,6 @@ body {
 }
 
 .home-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  gap: 1.75rem;
-  align-items: start;
-  justify-items: start;
   text-align: left;
 }
 
@@ -33,9 +28,10 @@ body {
 }
 
 .profile-photo {
+  float: right;
   width: 220px;
   height: auto;
-  justify-self: end;
+  margin: 0.1rem 0 1rem 1.75rem;
   border-radius: 4px;
 }
 
@@ -113,13 +109,10 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .home-intro {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
   .profile-photo {
+    float: none;
+    display: block;
     width: min(70vw, 210px);
-    justify-self: start;
+    margin: 0 0 1rem;
   }
 }
