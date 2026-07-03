@@ -2,34 +2,34 @@
 
 ## 2026-07-03
 
-- Milestone: refine mobile header and homepage research link.
-- Success criteria: mobile stacked header title/navigation are centered, the homepage keeps only the profile photo and opening sentence centered on mobile, the word `research` in the homepage interest sentence links clearly to `/research/`, and mobile homepage/Teaching layouts pass scripted checks.
-- Decision: added mobile header overrides to center the site title and stacked nav links, added `.inline-cta` styling for clear inline links, and linked the homepage `research` text to the Research page.
-- Validation: pending.
+- Milestone: refine mobile header and homepage intro.
+- Success criteria: mobile header spacing avoids the menu overlap issue, the stacked mobile name/navigation are centered, the profile photo and opening sentence are centered on mobile while the rest of the homepage text remains left-aligned, the homepage `research` word links visibly to the Research page, and About/Teaching render cleanly at a mobile viewport.
+- Decision: replaced the mobile hamburger toggle with a centered stacked link row, centered the mobile site title, centered only the profile image and opening homepage sentence, kept subsequent homepage copy left-aligned, added wrapping safeguards, and linked `research` in the homepage blurb to `/research/` with a slightly stronger underline treatment.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Chrome DevTools Protocol mobile emulation at 390px width confirmed no horizontal overflow on About or Teaching (`scrollWidth: 390`), centered mobile title/navigation, centered profile photo and opening sentence, `researchHref: "/research/"`, and Teaching field lists collapsing to block layout on mobile. Screenshots were saved to `/private/tmp/cai-home-mobile-final.png` and `/private/tmp/cai-teaching-mobile-final.png` for visual inspection.
 - Deviations/blockers: none.
 
-- Milestone: refine mobile homepage alignment.
-- Success criteria: on mobile, the profile image and opening homepage sentence are centered, while the rest of the homepage body copy remains left-aligned.
-- Decision: updated the existing max-width `700px` breakpoint to center the profile image with auto side margins and center only `.home-copy p:first-child`.
-- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles the mobile breakpoint with centered profile image margins and `text-align: center` only for `.home-copy p:first-child`.
+- Milestone: consolidate Teaching supporting fields.
+- Success criteria: Teaching entries use one consistent field-list style for roles, links, ratings, selected topics, materials, and evaluations.
+- Decision: moved `Selected topics`, `Materials`, `Evaluations`, and years into the same `teaching-fields` definition lists, using `Term` for the year field after `Course`/`Co-taught with`; shortened Northwestern's role to `Teaching assistant`; revised the NBER topic list; matched standard Teaching field-label styling to the homepage Contact labels; made the `Co-taught with` label a lighter secondary exception; capitalized the evaluations link label; and removed the now-unused teaching label/resource styles.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders `Term` after `Course` for Rutgers/Northwestern and after `Co-taught with` for NBER, retains the four NBER bullets, and keeps the secondary co-teacher label styling.
 - Deviations/blockers: none.
 
-- Milestone: rename Teaching date fields to terms.
-- Success criteria: Teaching metadata uses `Term` as the date field label, and the NBER term appears below the lighter `Co-taught with` field.
-- Decision: renamed the Rutgers and Northwestern `Years` fields to `Term`, changed the NBER `Year` value to `Term: Spring 2022`, and ordered the NBER term after the co-teacher metadata.
-- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders `Term` under Rutgers and Northwestern course entries and renders NBER `Term: Spring 2022` below `Co-taught with`.
+- Milestone: convert Teaching metadata to field lists.
+- Success criteria: Teaching entries expose Role and Rating fields where applicable, course/workshop links live in their own fields, NBER lists co-teachers as a field, and the page remains visually lightweight.
+- Decision: replaced teaching metadata paragraphs with responsive definition-list fields for `Role`, `Course` or `Workshop`, `Rating`, and `Co-taught with`, reusing muted label styling to keep the page compact.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders separate `Role`, `Course` or `Workshop`, `Rating`, and `Co-taught with` fields in `teaching-fields` definition lists, and `_site/assets/main.css` contains responsive field-list styling.
 - Deviations/blockers: none.
 
-- Milestone: move Teaching years into metadata fields.
-- Success criteria: Teaching section titles no longer include parenthetical years, each entry exposes its year information as a field, and the NBER co-teacher field remains visually lighter than standard metadata labels.
-- Decision: added `.teaching-meta` definition lists below each Teaching heading, using `Year`/`Years` labels as appropriate. Moved the NBER co-teacher list into the same metadata block with a `.teaching-meta-subtle` label treatment.
-- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders the three Teaching headings without parenthetical years, includes `Year`/`Years` fields for each entry, and keeps `Co-taught with` as `.teaching-meta-subtle`. Confirmed `_site/assets/main.css` compiles the `.teaching-meta` grid and lighter `.teaching-meta-subtle` label.
+- Milestone: lighten Teaching page structure on refactor branch.
+- Success criteria: Teaching entries are more compact and scannable, ratings and resources read as lighter metadata, and topic lists are introduced by short labels instead of full-weight prose.
+- Decision: rewrote the Teaching page entries into compact role/rating/resource lines, added `Selected topics` labels, and added small muted CSS classes for teaching metadata, labels, and resource links.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders compact `teaching-meta`, `teaching-label`, and `teaching-resource` entries, and `_site/assets/main.css` contains the new muted teaching styles.
 - Deviations/blockers: none.
 
-- Milestone: refine NBER teaching metadata.
-- Success criteria: the NBER co-teacher information reads as secondary context rather than a standard field or part of the main description.
-- Decision: split the co-teacher list into a dedicated `.teaching-note` line and styled the `Co-taught with` label with softer color, smaller size, and regular weight.
-- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders the `Co-taught with` line as `.teaching-note`, and `_site/assets/main.css` compiles `.teaching-note-label` with muted color, `0.94rem` size, and regular weight.
+- Milestone: explore restrained site-wide visual polish on refactor branch.
+- Success criteria: research entries have clearer hierarchy, links feel more deliberate, content has a little more breathing room, the profile photo treatment is quieter, and mobile/header spacing remains coherent.
+- Decision: widened the wrapper slightly, refined link underline behavior, added a subtle left rule and metadata color treatment to research entries, aligned abstract spacing with the entry rule, softened the profile photo shadow, and added small mobile overrides for title/nav/research spacing.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` contains the wider wrapper, refined link underline rules, subtle research-entry left rule, softer photo shadow, and mobile spacing overrides.
 - Deviations/blockers: none.
 
 - Milestone: soften homepage contact labels.
