@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: lighten Teaching page structure on refactor branch.
+- Success criteria: Teaching entries are more compact and scannable, ratings and resources read as lighter metadata, and topic lists are introduced by short labels instead of full-weight prose.
+- Decision: rewrote the Teaching page entries into compact role/rating/resource lines, added `Selected topics` labels, and added small muted CSS classes for teaching metadata, labels, and resource links.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders compact `teaching-meta`, `teaching-label`, and `teaching-resource` entries, and `_site/assets/main.css` contains the new muted teaching styles.
+- Deviations/blockers: none.
+
 - Milestone: explore restrained site-wide visual polish on refactor branch.
 - Success criteria: research entries have clearer hierarchy, links feel more deliberate, content has a little more breathing room, the profile photo treatment is quieter, and mobile/header spacing remains coherent.
 - Decision: widened the wrapper slightly, refined link underline behavior, added a subtle left rule and metadata color treatment to research entries, aligned abstract spacing with the entry rule, softened the profile photo shadow, and added small mobile overrides for title/nav/research spacing.
