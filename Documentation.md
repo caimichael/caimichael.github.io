@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: explore restrained site-wide visual polish on refactor branch.
+- Success criteria: research entries have clearer hierarchy, links feel more deliberate, content has a little more breathing room, the profile photo treatment is quieter, and mobile/header spacing remains coherent.
+- Decision: widened the wrapper slightly, refined link underline behavior, added a subtle left rule and metadata color treatment to research entries, aligned abstract spacing with the entry rule, softened the profile photo shadow, and added small mobile overrides for title/nav/research spacing.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` contains the wider wrapper, refined link underline rules, subtle research-entry left rule, softer photo shadow, and mobile spacing overrides.
+- Deviations/blockers: none.
+
 - Milestone: soften homepage contact labels.
 - Success criteria: Contact field labels remain visually distinct while feeling less like all-caps product UI.
 - Decision: kept the contact definition-list layout, but changed labels to title-case styling with muted color, normal letter spacing, no uppercase transform, and a modest medium weight.
