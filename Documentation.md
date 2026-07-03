@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: soften homepage contact labels.
+- Success criteria: Contact field labels remain visually distinct while feeling less like all-caps product UI.
+- Decision: kept the contact definition-list layout, but changed labels to title-case styling with muted color, normal letter spacing, no uppercase transform, and a modest medium weight.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles contact labels at `0.92rem`, medium weight, normal letter spacing, and no uppercase transform.
+- Deviations/blockers: none.
+
 - Milestone: tighten homepage contact layout.
 - Success criteria: the Contact section sits closer to the open-source project list and the contact fields are visually distinct without bold labels.
 - Decision: moved Contact into the homepage copy flow after the software list, reduced the section spacing, and replaced bold/plain contact lines with a lightweight definition-list layout using small muted uppercase labels.
