@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refine mobile header and homepage research link.
+- Success criteria: mobile stacked header title/navigation are centered, the homepage keeps only the profile photo and opening sentence centered on mobile, the word `research` in the homepage interest sentence links clearly to `/research/`, and mobile homepage/Teaching layouts pass scripted checks.
+- Decision: added mobile header overrides to center the site title and stacked nav links, added `.inline-cta` styling for clear inline links, and linked the homepage `research` text to the Research page.
+- Validation: pending.
+- Deviations/blockers: none.
+
 - Milestone: refine mobile homepage alignment.
 - Success criteria: on mobile, the profile image and opening homepage sentence are centered, while the rest of the homepage body copy remains left-aligned.
 - Decision: updated the existing max-width `700px` breakpoint to center the profile image with auto side margins and center only `.home-copy p:first-child`.

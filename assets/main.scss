@@ -72,6 +72,13 @@ a:hover {
   text-decoration-color: $accent;
 }
 
+.inline-cta {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.16em;
+}
+
 .post-title {
   display: none;
 }
@@ -313,6 +320,44 @@ a:hover {
 @media screen and (max-width: 700px) {
   .page-content {
     padding-top: 1.7rem;
+  }
+
+  .site-header .wrapper {
+    text-align: center;
+  }
+
+  .site-title {
+    float: none;
+  }
+
+  .site-nav {
+    position: static;
+    float: none;
+    margin-top: 0.8rem;
+    border: 0;
+    background: transparent;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .site-nav label[for="nav-trigger"],
+  .site-nav .menu-icon {
+    display: none;
+  }
+
+  .site-nav input ~ .trigger,
+  .site-nav input:checked ~ .trigger {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.65rem 1rem;
+    padding-bottom: 0;
+  }
+
+  .site-nav .page-link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
   }
 
   .profile-photo {
