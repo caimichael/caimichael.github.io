@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: convert Teaching metadata to field lists.
+- Success criteria: Teaching entries expose Role and Rating fields where applicable, course/workshop links live in their own fields, NBER lists co-teachers as a field, and the page remains visually lightweight.
+- Decision: replaced teaching metadata paragraphs with responsive definition-list fields for `Role`, `Course` or `Workshop`, `Rating`, and `Co-taught with`, reusing muted label styling to keep the page compact.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders separate `Role`, `Course` or `Workshop`, `Rating`, and `Co-taught with` fields in `teaching-fields` definition lists, and `_site/assets/main.css` contains responsive field-list styling.
+- Deviations/blockers: none.
+
 - Milestone: lighten Teaching page structure on refactor branch.
 - Success criteria: Teaching entries are more compact and scannable, ratings and resources read as lighter metadata, and topic lists are introduced by short labels instead of full-weight prose.
 - Decision: rewrote the Teaching page entries into compact role/rating/resource lines, added `Selected topics` labels, and added small muted CSS classes for teaching metadata, labels, and resource links.
