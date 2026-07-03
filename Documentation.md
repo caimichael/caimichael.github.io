@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: soften header and page background contrast.
+- Success criteria: the site uses the selected subtle blue-gray Option 1 pairing for body and header backgrounds while preserving the existing accent palette.
+- Decision: changed the page background to `#f6f9fa` and replaced the near-white translucent header with an explicit `#f2f7f8` header background token, making the blue-gray contrast visible while keeping it subdued.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles the page background as `#f6f9fa` and the header background as `#f2f7f8`.
+- Deviations/blockers: none.
+
 - Milestone: align homepage intro line with body typography.
 - Success criteria: the opening homepage sentence uses the selected Avenir-style Option 2 treatment and the temporary intro style preview page is removed.
 - Decision: changed `.home-copy p:first-child` from the larger Georgia treatment to the body font stack at `1.12rem`, regular weight, with a slightly relaxed line height. Removed `intro-style-options.html` after selection.

@@ -10,7 +10,8 @@ $accent: #176b87;
 $accent-dark: #0b4f66;
 $accent-soft: #e8f4f7;
 $secondary: #5f7f68;
-$paper: #f7fafb;
+$paper: #f6f9fa;
+$header-bg: #f2f7f8;
 $surface: #ffffff;
 $rule: #d8e3e7;
 $body-font: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -29,7 +30,7 @@ body {
   min-height: 0;
   border-top: 3px solid $accent;
   border-bottom: 1px solid $rule;
-  background: rgba(255, 255, 255, 0.9);
+  background: $header-bg;
 }
 
 .site-title,
@@ -131,7 +132,7 @@ a:hover {
   margin-top: 0;
   color: $ink;
   font-family: $body-font;
-  font-size: 1.12rem;
+  font-size: 1.10rem;
   font-weight: 400;
   line-height: 1.65;
 }
