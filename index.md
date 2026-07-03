@@ -19,17 +19,16 @@ layout: default
       <li>Time-series econometrics</li>
     </ul>
 
+    <p>I have contributed to the following open-source projects related to structural macroeconomic modeling:</p>
+
+    <ul>
+      <li><a href="https://github.com/shade-econ/sequence-jacobian"><code>sequence-jacobian</code></a></li>
+      <li><a href="https://github.com/FRBNY-DSGE/StateSpaceRoutines.jl"><code>StateSpaceRoutines.jl</code></a></li>
+      <li><a href="https://github.com/FRBNY-DSGE/DSGE.jl"><code>DSGE.jl</code></a></li>
+      <li><a href="https://github.com/FRBNY-DSGE/SMC.jl"><code>SMC.jl</code></a></li>
+    </ul>
+
   </div>
-</section>
-
-<section class="home-section" markdown="1">
-I have also contributed to open-source projects related to structural macroeconomic modeling:
-
-- [`sequence-jacobian`](https://github.com/shade-econ/sequence-jacobian) 
-- [`DSGE.jl`](https://github.com/FRBNY-DSGE/DSGE.jl) 
-- [`StateSpaceRoutines.jl`](https://github.com/FRBNY-DSGE/StateSpaceRoutines.jl) 
-- [`SMC.jl`](https://github.com/FRBNY-DSGE/SMC.jl) 
-
 </section>
 
 <section class="contact-block" markdown="1">

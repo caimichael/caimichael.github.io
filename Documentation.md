@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: finalize homepage typography and software copy.
+- Success criteria: site title uses the selected Baskerville-style font, homepage software text wraps with the intro instead of leaving awkward whitespace after research interests, Contact heading is smaller, software projects are reordered with `StateSpaceRoutines.jl` before `DSGE.jl`, and the software lead sentence is updated.
+- Decision: applied a Baskerville-first site title stack, moved software copy/list into the floated intro text flow, added a smaller Contact heading override, and converted the software links to explicit HTML list items to preserve wrapping and ordering.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/index.html` renders the updated software sentence, keeps software links inside the homepage intro flow, orders `StateSpaceRoutines.jl` before `DSGE.jl`, and confirmed `_site/assets/main.css` contains the Baskerville site-title stack and smaller Contact heading rule.
+- Deviations/blockers: none.
+
 - Milestone: refine body typography.
 - Success criteria: ordinary body and navigation text use a more distinctive readable sans-serif without adding an external font dependency.
 - Decision: introduced a `$body-font` stack preferring `Avenir Next`/`Avenir`, with Helvetica/Arial fallbacks, and applied it through the existing body font rule.
