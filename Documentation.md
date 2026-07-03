@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: update vulnerable Ruby dependencies.
+- Success criteria: Dependabot-reported Ruby advisories for `addressable`, `concurrent-ruby`, and `rexml` are resolved while preserving the existing Jekyll site build.
+- Decision: ran a targeted Bundler update for `addressable`, `concurrent-ruby`, and `rexml`, which updated `addressable` to `2.9.0`, `concurrent-ruby` to `1.3.7`, `rexml` to `3.4.4`, and `public_suffix` to `7.0.5` as a transitive dependency.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. `GEM_HOME=/private/tmp/cai-bundler-audit GEM_PATH=/private/tmp/cai-bundler-audit /private/tmp/cai-bundler-audit/bin/bundle-audit check --update` completed successfully with `No vulnerabilities found`.
+- Deviations/blockers: none.
+
 - Milestone: refine mobile header and homepage intro.
 - Success criteria: mobile header spacing avoids the menu overlap issue, the stacked mobile name/navigation are centered, the profile photo and opening sentence are centered on mobile while the rest of the homepage text remains left-aligned, the homepage `research` word links visibly to the Research page, and About/Teaching render cleanly at a mobile viewport.
 - Decision: replaced the mobile hamburger toggle with a centered stacked link row, centered the mobile site title, centered only the profile image and opening homepage sentence, kept subsequent homepage copy left-aligned, added wrapping safeguards, and linked `research` in the homepage blurb to `/research/` with a slightly stronger underline treatment.
