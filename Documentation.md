@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: move Teaching years into metadata fields.
+- Success criteria: Teaching section titles no longer include parenthetical years, each entry exposes its year information as a field, and the NBER co-teacher field remains visually lighter than standard metadata labels.
+- Decision: added `.teaching-meta` definition lists below each Teaching heading, using `Year`/`Years` labels as appropriate. Moved the NBER co-teacher list into the same metadata block with a `.teaching-meta-subtle` label treatment.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders the three Teaching headings without parenthetical years, includes `Year`/`Years` fields for each entry, and keeps `Co-taught with` as `.teaching-meta-subtle`. Confirmed `_site/assets/main.css` compiles the `.teaching-meta` grid and lighter `.teaching-meta-subtle` label.
+- Deviations/blockers: none.
+
 - Milestone: refine NBER teaching metadata.
 - Success criteria: the NBER co-teacher information reads as secondary context rather than a standard field or part of the main description.
 - Decision: split the co-teacher list into a dedicated `.teaching-note` line and styled the `Co-taught with` label with softer color, smaller size, and regular weight.
