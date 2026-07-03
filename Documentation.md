@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: update homepage contact emails.
+- Success criteria: Contact section distinguishes personal email from school email and includes `michael.cai [at] rutgers [dot] edu`.
+- Decision: changed the existing email label to `Personal Email` and added a separate `School Email` line using the same non-literal address style.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/index.html` renders `Personal Email` and `School Email` with `michael.cai [at] rutgers [dot] edu`.
+- Deviations/blockers: none.
+
 - Milestone: finalize homepage typography and software copy.
 - Success criteria: site title uses the selected Baskerville-style font, homepage software text wraps with the intro instead of leaving awkward whitespace after research interests, Contact heading is smaller, software projects are reordered with `StateSpaceRoutines.jl` before `DSGE.jl`, and the software lead sentence is updated.
 - Decision: applied a Baskerville-first site title stack, moved software copy/list into the floated intro text flow, added a smaller Contact heading override, and converted the software links to explicit HTML list items to preserve wrapping and ordering.

@@ -35,5 +35,6 @@ layout: default
 ## Contact
 
 **Office:** Room 415, New Jersey Hall, 75 Hamilton St, New Brunswick, NJ  
-**Email:** michael [at] michaelcai [dot] com
+**Personal Email:** michael [at] michaelcai [dot] com  
+**School Email:** michael.cai [at] rutgers [dot] edu
 </section>
