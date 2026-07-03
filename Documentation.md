@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: revise homepage research-interest blurb.
+- Success criteria: homepage introduction states appointment, lists research interests as bullets, and presents software contributions without a separate Software heading.
+- Decision: used a short paragraph plus bullet list in `index.md`, preserving the existing software links as secondary text.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/index.html` renders the research-interest bullet list and no `Software` heading.
+- Deviations/blockers: none.
+
 - Milestone: refactor site presentation.
 - Success criteria: homepage uses responsive image and clearer intro/software/contact sections; research entries use shared classes instead of inline spacing; generated local files are ignored.
 - Decision: kept the Minima theme and existing content, but moved visual presentation into `assets/main.scss` and added lightweight academic-site hierarchy rather than a more decorative redesign.

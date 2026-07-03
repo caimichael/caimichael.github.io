@@ -7,18 +7,23 @@ layout: default
 
 <section class="home-intro">
   <img src="/assets/new_profile.png" alt="Michael Cai" class="profile-photo">
-  <div class="home-copy" markdown="1">
+  <div class="home-copy">
 
-I am an Assistant Professor of Economics at [Rutgers University](https://economics.rutgers.edu/), with research interests in heterogeneous-agent macroeconomics, bounded rationality, and time-series 
-econometrics.
+    <p>I am an Assistant Professor of Economics at <a href="https://economics.rutgers.edu/">Rutgers University</a>.</p>
+
+    <p>My research interests are broadly within macroeconomics, with a focus on</p>
+
+    <ul>
+      <li>Heterogeneous-agent models</li>
+      <li>Bounded rationality</li>
+      <li>Time-series econometrics</li>
+    </ul>
 
   </div>
 </section>
 
 <section class="home-section" markdown="1">
-## Software
-
-I have also contributed to open-source projects related to structural macroeconomic modeling 
+I have also contributed to open-source projects related to structural macroeconomic modeling:
 
 - [`sequence-jacobian`](https://github.com/shade-econ/sequence-jacobian) 
 - [`DSGE.jl`](https://github.com/FRBNY-DSGE/DSGE.jl) 
