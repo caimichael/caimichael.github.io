@@ -69,7 +69,7 @@ Last updated: September 2024
 Work in Progress
 --------------
 
-**When Lagged Observables Can (And Should) Be Used as Instruments**  
+**When Lagged Observables Can (and Should) Be Used as Instruments**  
 (with Andrea Ferrara)  
 
 Publications

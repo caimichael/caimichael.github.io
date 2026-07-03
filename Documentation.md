@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: correct work-in-progress paper title capitalization.
+- Success criteria: the research page uses standard title case for the parenthetical phrase in `When Lagged Observables Can (and Should) Be Used as Instruments`.
+- Decision: lowercased the coordinating conjunction `and` inside the parenthetical while leaving the rest of the title in title case.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/research/index.html` renders the title as `When Lagged Observables Can (and Should) Be Used as Instruments`.
+- Deviations/blockers: none.
+
 - Milestone: revise homepage research-interest blurb.
 - Success criteria: homepage introduction states appointment, lists research interests as bullets, and presents software contributions without a separate Software heading.
 - Decision: used a short paragraph plus bullet list in `index.md`, preserving the existing software links as secondary text.
