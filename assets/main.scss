@@ -299,26 +299,25 @@ a:hover {
 
 .teaching-fields dt {
   color: $soft-muted;
+  font-size: 0.92rem;
   font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.7;
+  text-transform: none;
+}
+
+.teaching-fields .teaching-field-secondary {
+  color: lighten($soft-muted, 6%);
+  font-weight: 400;
 }
 
 .teaching-fields dd {
   margin: 0;
 }
 
-.teaching-label,
-.teaching-resource {
-  margin-bottom: 0.35rem;
-  color: $soft-muted;
-  font-size: 0.95rem;
-}
-
-.teaching-label {
-  margin-top: 0.65rem;
-}
-
-.teaching-resource {
-  margin-top: -0.1rem;
+.teaching-fields ul {
+  margin-top: 0;
+  margin-bottom: 0.15rem;
 }
 
 @media screen and (max-width: 560px) {

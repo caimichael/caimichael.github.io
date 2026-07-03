@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: consolidate Teaching supporting fields.
+- Success criteria: Teaching entries use one consistent field-list style for roles, links, ratings, selected topics, materials, and evaluations.
+- Decision: moved `Selected topics`, `Materials`, `Evaluations`, and years into the same `teaching-fields` definition lists, using `Term` for the year field after `Course`/`Co-taught with`; shortened Northwestern's role to `Teaching assistant`; revised the NBER topic list; matched standard Teaching field-label styling to the homepage Contact labels; made the `Co-taught with` label a lighter secondary exception; capitalized the evaluations link label; and removed the now-unused teaching label/resource styles.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders `Term` after `Course` for Rutgers/Northwestern and after `Co-taught with` for NBER, retains the four NBER bullets, and keeps the secondary co-teacher label styling.
+- Deviations/blockers: none.
+
 - Milestone: convert Teaching metadata to field lists.
 - Success criteria: Teaching entries expose Role and Rating fields where applicable, course/workshop links live in their own fields, NBER lists co-teachers as a field, and the page remains visually lightweight.
 - Decision: replaced teaching metadata paragraphs with responsive definition-list fields for `Role`, `Course` or `Workshop`, `Rating`, and `Co-taught with`, reusing muted label styling to keep the page compact.
