@@ -11,9 +11,9 @@ Working Papers
 (with Dalton Rongxuan Zhang)  
 *Preliminary draft*  
 Last updated: July 2026
-{: .paper-title style="margin-bottom:.2rem"}
+{: .paper-title}
 
-<details style="margin-top:0">
+<details class="paper-abstract">
   <summary class="btn-abstract">Abstract</summary>
   <div class="abstract-text">
   Over four decades, U.S. market power has risen, interest rates have fallen, and wealth has
@@ -37,9 +37,9 @@ than from output distortions.
 
 **[Explaining the Macroeconomic Inertia Puzzle](/files/MichaelCai_JMP_Inertia.pdf)**  
 Last updated: July 2025
-{: .paper-title style="margin-bottom:.2rem"}
+{: .paper-title}
 
-<details style="margin-top:0">
+<details class="paper-abstract">
   <summary class="btn-abstract">Abstract</summary>
   <div class="abstract-text">
     Benchmark macroeconomic models require additional frictions to explain the sluggish response of aggregate variables to sudden shocks or changes in policy. I show that standard heterogeneous-agent (HA) models—the Blanchard (1985) perpetual youth and Bewley (1986) incomplete markets models—are consistent with aggregate consumption inertia without the
@@ -52,9 +52,9 @@ inertia in standard HA models by directly substituting survey expectations of in
 **[Optimal Long-Run Fiscal Policy with Heterogeneous Agents](/files/rss_heterogeneity.pdf)**  
 (with Adrien Auclert, Matt Rognlie, and Ludwig Straub)  
 Last updated: September 2024
-{: .paper-title style="margin-top:1.5rem; margin-bottom:0.2rem"}
+{: .paper-title}
 
-<details style="margin-top:0; margin-bottom:1rem">
+<details class="paper-abstract">
   <summary class="btn-abstract">Abstract</summary>
   <div class="abstract-text">
   We introduce a new method for characterizing the steady state of dynamic Ramsey problems,
@@ -69,17 +69,18 @@ Last updated: September 2024
 Work in Progress
 --------------
 
-**When Lagged Observables Can (And Should) Be Used as Instruments**  
+**When Lagged Observables Can (and Should) Be Used as Instruments**  
 (with Andrea Ferrara)  
+{: .paper-title}
 
 Publications
 --------------
 **[Online Estimation of DSGE Models](https://academic.oup.com/ectj/article/24/1/C33/5909595?login=true)**  
 (with Marco Del Negro, Edward Herbst, Ethan Matlin, Reca Sarfati, and Frank Schorfheide)  
 *The Econometrics Journal*, January 2021
-{: .paper-title style="margin-bottom:.2rem"}
+{: .paper-title}
 
-<details style="margin-top:0">
+<details class="paper-abstract">
   <summary class="btn-abstract">Abstract</summary>
   <div class="abstract-text">
   This paper illustrates the usefulness of sequential Monte Carlo (SMC) methods in approximating dynamic stochastic general equilibrium (DSGE) model posterior distributions. We show how the tempering schedule can be chosen adaptively, document the accuracy and runtime benefits of generalized data tempering for ‘online’ estimation (that is, re-estimating a model as new data become available), and provide examples of multimodal posteriors that are well captured by SMC methods. We then use the online estimation of the DSGE model to compute pseudo-out-of-sample density forecasts and study the sensitivity of the predictive performance to changes in the prior distribution. We find that making priors less informative (compared with the benchmark priors used in the literature) by increasing the prior variance does not lead to a deterioration of forecast accuracy.
@@ -90,9 +91,9 @@ Publications
 (with Marco Del Negro, Marc P. Giannoni, Abhi Gupta, Pearl Li, & Erica Moszkowski)  
 *International Journal of Forecasting*, October-December 2019  
 Available ungated as a [Federal Reserve Bank of New York Staff Report](/files/sr844.pdf).
-{: .paper-title style="margin-top:1.5rem; margin-bottom:0.2rem"}
+{: .paper-title}
 
-<details style="margin-top:0; margin-bottom:1rem">
+<details class="paper-abstract">
   <summary class="btn-abstract">Abstract</summary>
   <div class="abstract-text">
   The years following the Great Recession were challenging for forecasters. Unlike other deep downturns, this recession was not followed by a swift recovery, but instead generated a sizable and persistent output gap that was not accompanied by deflation as a traditional Phillips curve relationship would have predicted. Moreover, the zero lower bound and unconventional monetary policy generated an unprecedented policy environment. We document the actual real-time forecasting performance of the New York Fed dynamic stochastic general equilibrium (DSGE) model during this period and explain the results using the pseudo real-time forecasting performance results from a battery of DSGE models. We find the New York Fed DSGE model’s forecasting accuracy to be comparable to that of private forecasters, and notably better for output growth than the median forecasts from the FOMC’s Summary of Economic Projections. The model’s financial frictions were key in obtaining these results, as they implied a slow recovery following the financial crisis.
