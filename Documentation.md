@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: apply selected site-title typography.
+- Success criteria: the top-left `Michael Cai` site title uses the selected regular-weight Baskerville option and the temporary font preview page is removed.
+- Decision: kept the existing Baskerville-first title stack and changed the site-title font weight from semibold to regular to reduce visual clunkiness. Removed `site-title-font-options.html` after the selection.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` compiles the Baskerville site-title rule with `font-weight: 400`, and `site-title-font-options.html` is no longer present in the worktree.
+- Deviations/blockers: none.
+
 - Milestone: structure Teaching page content.
 - Success criteria: Teaching page separates the Rutgers instructor role, NBER workshop assistantship, and Northwestern intermediate macro assistantship into distinct headed sections with years.
 - Decision: added a Rutgers Econ 321 instructor section with course link and average rating, moved the intermediate macro topic bullets from Northwestern to Rutgers, removed `Quantity theory of money`, and added `AD-AS` after `IS-LM`.
