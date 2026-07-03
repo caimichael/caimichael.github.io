@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: structure Teaching page content.
+- Success criteria: Teaching page separates the Rutgers instructor role, NBER workshop assistantship, and Northwestern intermediate macro assistantship into distinct headed sections with years.
+- Decision: added a Rutgers Econ 321 instructor section with course link and average rating, moved the intermediate macro topic bullets from Northwestern to Rutgers, removed `Quantity theory of money`, and added `AD-AS` after `IS-LM`.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders the Rutgers Econ 321 heading, linked course title, bold `4.55/5` rating, the moved topic list with `AD-AS`, and no `Quantity theory of money`.
+- Deviations/blockers: none.
+
 - Milestone: update homepage contact emails.
 - Success criteria: Contact section distinguishes personal email from school email and includes `michael.cai [at] rutgers [dot] edu`.
 - Decision: changed the existing email label to `Personal Email` and added a separate `School Email` line using the same non-literal address style.
