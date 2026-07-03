@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refine NBER teaching metadata.
+- Success criteria: the NBER co-teacher information reads as secondary context rather than a standard field or part of the main description.
+- Decision: split the co-teacher list into a dedicated `.teaching-note` line and styled the `Co-taught with` label with softer color, smaller size, and regular weight.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/teaching/index.html` renders the `Co-taught with` line as `.teaching-note`, and `_site/assets/main.css` compiles `.teaching-note-label` with muted color, `0.94rem` size, and regular weight.
+- Deviations/blockers: none.
+
 - Milestone: soften homepage contact labels.
 - Success criteria: Contact field labels remain visually distinct while feeling less like all-caps product UI.
 - Decision: kept the contact definition-list layout, but changed labels to title-case styling with muted color, normal letter spacing, no uppercase transform, and a modest medium weight.

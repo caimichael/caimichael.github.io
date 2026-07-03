@@ -18,7 +18,9 @@ Some example topics from the class are
 
 I served as the teaching assistant for the National Bureau of Economic Research's
 [**Heterogeneous Agent Macro Workshop**](https://www.nber.org/conferences/heterogeneous-agent-macro-workshop-spring-2022) 
-in the spring of 2022, co-taught with Adrien Auclert, Bence Bardóczy, Matthew Rognlie, and Ludwig Straub.  
+in the spring of 2022.  
+
+<p class="teaching-note"><span class="teaching-note-label">Co-taught with</span> Adrien Auclert, Bence Bardóczy, Matthew Rognlie, and Ludwig Straub.</p>
 
 The Github repository containing lecture materials and code is linked [here](https://github.com/shade-econ/nber-workshop-2022).
 

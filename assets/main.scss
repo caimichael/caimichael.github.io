@@ -204,6 +204,16 @@ a:hover {
   margin: 0;
 }
 
+.teaching-note {
+  margin-top: -0.2rem;
+}
+
+.teaching-note-label {
+  color: $soft-muted;
+  font-size: 0.94rem;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 520px) {
   .contact-list {
     display: block;
