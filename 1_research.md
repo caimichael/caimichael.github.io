@@ -71,6 +71,7 @@ Work in Progress
 
 **When Lagged Observables Can (and Should) Be Used as Instruments**  
 (with Andrea Ferrara)  
+{: .paper-title}
 
 Publications
 --------------

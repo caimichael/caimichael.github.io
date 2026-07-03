@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refine research item formatting and header spacing.
+- Success criteria: Work in Progress paper title uses the same title styling as other research entries, desktop header has more balanced vertical spacing, and nav links are larger.
+- Decision: added the `.paper-title` class to the Work in Progress entry and overrode Minima's desktop header float/line-height behavior with an explicit flex layout, larger nav text, and more vertical padding.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/research/index.html` renders the Work in Progress item with `class="paper-title"` and `_site/assets/main.css` contains the larger header/nav font sizes plus the desktop flex header spacing rules.
+- Deviations/blockers: none.
+
 - Milestone: align visual palette with profile photo.
 - Success criteria: replace the burgundy/beige visual language with a cooler blue-green palette that better matches the profile photo while preserving the recent layout and typography improvements.
 - Decision: changed the central Sass color tokens to slate ink, blue accent links/rules, muted green bullet markers, pale blue page background, and blue-tinted image shadow. Replaced the block pseudo-element nav underline with a desktop flex nav and simple border underline after it caused awkward header spacing.
