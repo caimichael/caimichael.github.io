@@ -140,6 +140,10 @@ a:hover {
   line-height: 1.65;
 }
 
+.mobile-intro-break {
+  display: none;
+}
+
 .home-copy ul {
   margin-top: -0.25rem;
 }
@@ -404,6 +408,10 @@ a:hover {
 
   .home-copy p:first-child {
     text-align: center;
+  }
+
+  .mobile-intro-break {
+    display: block;
   }
 
   .home-copy p,

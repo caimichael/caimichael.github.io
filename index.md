@@ -9,7 +9,7 @@ layout: default
   <img src="/assets/new_profile.png" alt="Michael Cai" class="profile-photo">
   <div class="home-copy">
 
-    <p>I am an Assistant Professor of Economics at <a href="https://economics.rutgers.edu/">Rutgers University</a>.</p>
+    <p>I am an Assistant Professor of Economics<br class="mobile-intro-break"> at <a href="https://economics.rutgers.edu/">Rutgers University</a>.</p>
 
     <p>My <a class="research-inline-link" href="/research/">research</a> interests are broadly within macroeconomics, with a focus on</p>
 

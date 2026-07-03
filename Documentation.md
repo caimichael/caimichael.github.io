@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: add mobile-only homepage intro line break.
+- Success criteria: on mobile, the opening homepage sentence breaks after `Economics`, leaving `at Rutgers University` on the second centered line; desktop rendering remains unchanged.
+- Decision: inserted a dedicated `mobile-intro-break` element before `at Rutgers University`, hidden by default and displayed only inside the existing max-width `700px` mobile breakpoint.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/index.html` renders `<br class="mobile-intro-break" />` before `at Rutgers University`, `_site/assets/main.css` hides `.mobile-intro-break` by default, and the existing max-width `700px` mobile media query sets it to `display: block`.
+- Deviations/blockers: none.
+
 - Milestone: update vulnerable Ruby dependencies.
 - Success criteria: Dependabot-reported Ruby advisories for `addressable`, `concurrent-ruby`, and `rexml` are resolved while preserving the existing Jekyll site build.
 - Decision: ran a targeted Bundler update for `addressable`, `concurrent-ruby`, and `rexml`, which updated `addressable` to `2.9.0`, `concurrent-ruby` to `1.3.7`, `rexml` to `3.4.4`, and `public_suffix` to `7.0.5` as a transitive dependency.
