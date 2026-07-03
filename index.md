@@ -11,7 +11,7 @@ layout: default
 
     <p>I am an Assistant Professor of Economics at <a href="https://economics.rutgers.edu/">Rutgers University</a>.</p>
 
-    <p>My research interests are broadly within macroeconomics, with a focus on</p>
+    <p>My <a class="research-inline-link" href="/research/">research</a> interests are broadly within macroeconomics, with a focus on</p>
 
     <ul>
       <li>Heterogeneous-agent models</li>

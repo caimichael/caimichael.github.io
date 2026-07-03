@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: refine mobile header and homepage intro.
+- Success criteria: mobile header spacing avoids the menu overlap issue, the stacked mobile name/navigation are centered, the profile photo and opening sentence are centered on mobile while the rest of the homepage text remains left-aligned, the homepage `research` word links visibly to the Research page, and About/Teaching render cleanly at a mobile viewport.
+- Decision: replaced the mobile hamburger toggle with a centered stacked link row, centered the mobile site title, centered only the profile image and opening homepage sentence, kept subsequent homepage copy left-aligned, added wrapping safeguards, and linked `research` in the homepage blurb to `/research/` with a slightly stronger underline treatment.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Chrome DevTools Protocol mobile emulation at 390px width confirmed no horizontal overflow on About or Teaching (`scrollWidth: 390`), centered mobile title/navigation, centered profile photo and opening sentence, `researchHref: "/research/"`, and Teaching field lists collapsing to block layout on mobile. Screenshots were saved to `/private/tmp/cai-home-mobile-final.png` and `/private/tmp/cai-teaching-mobile-final.png` for visual inspection.
+- Deviations/blockers: none.
+
 - Milestone: consolidate Teaching supporting fields.
 - Success criteria: Teaching entries use one consistent field-list style for roles, links, ratings, selected topics, materials, and evaluations.
 - Decision: moved `Selected topics`, `Materials`, `Evaluations`, and years into the same `teaching-fields` definition lists, using `Term` for the year field after `Course`/`Co-taught with`; shortened Northwestern's role to `Teaching assistant`; revised the NBER topic list; matched standard Teaching field-label styling to the homepage Contact labels; made the `Co-taught with` label a lighter secondary exception; capitalized the evaluations link label; and removed the now-unused teaching label/resource styles.
