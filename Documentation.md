@@ -2,6 +2,12 @@
 
 ## 2026-07-03
 
+- Milestone: align visual palette with profile photo.
+- Success criteria: replace the burgundy/beige visual language with a cooler blue-green palette that better matches the profile photo while preserving the recent layout and typography improvements.
+- Decision: changed the central Sass color tokens to slate ink, blue accent links/rules, muted green bullet markers, pale blue page background, and blue-tinted image shadow. Replaced the block pseudo-element nav underline with a desktop flex nav and simple border underline after it caused awkward header spacing.
+- Validation: `/opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/assets/main.css` contains the new blue-green palette tokens, no longer contains the prior burgundy/beige tokens, and uses the fixed desktop flex nav/border underline rules instead of the block pseudo-element underline.
+- Deviations/blockers: none.
+
 - Milestone: make the site visual design less generic.
 - Success criteria: default Minima blue-link/basic-header feel is replaced with a more distinctive palette, typography, header treatment, research-entry styling, and the large stock page titles are removed from the top of the Research and Teaching pages.
 - Decision: kept the existing Jekyll/Minima structure, but added a warmer page background, burgundy accent links, serif headings/paper titles, refined navigation hover states, custom abstract toggles, and hid `.post-title` to remove the oversized generated page headers.

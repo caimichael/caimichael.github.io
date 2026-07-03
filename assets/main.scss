@@ -3,16 +3,16 @@
 
 @import "minima";
 
-$ink: #23201d;
-$muted: #655f58;
-$soft-muted: #81786f;
-$accent: #8f1d2c;
-$accent-dark: #681321;
-$accent-soft: #f7e9eb;
-$secondary: #2f6f73;
-$paper: #fbfaf7;
+$ink: #1f2933;
+$muted: #5b6874;
+$soft-muted: #74808a;
+$accent: #176b87;
+$accent-dark: #0b4f66;
+$accent-soft: #e8f4f7;
+$secondary: #5f7f68;
+$paper: #f7fafb;
 $surface: #ffffff;
-$rule: #e4ddd3;
+$rule: #d8e3e7;
 
 body {
   color: $ink;
@@ -28,7 +28,7 @@ body {
   min-height: 0;
   border-top: 3px solid $accent;
   border-bottom: 1px solid $rule;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .site-title,
@@ -38,30 +38,22 @@ body {
   font-size: 1.45rem;
   font-weight: 600;
   letter-spacing: 0;
-}
-
-.site-nav .page-link {
-  color: $muted;
-  font-size: 0.95rem;
-}
-
-.site-nav .page-link:hover {
-  color: $accent;
+  line-height: 1.35;
   text-decoration: none;
 }
 
-.site-nav .page-link::after {
-  display: block;
-  width: 0;
-  height: 2px;
-  margin-top: 0.1rem;
-  background: $accent;
-  content: "";
-  transition: width 140ms ease;
+.site-nav .page-link {
+  border-bottom: 2px solid transparent;
+  color: $muted;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  text-decoration: none;
 }
 
-.site-nav .page-link:hover::after {
-  width: 100%;
+.site-nav .page-link:hover {
+  border-bottom-color: $accent;
+  color: $accent;
+  text-decoration: none;
 }
 
 .page-content {
@@ -157,7 +149,7 @@ a:hover {
   margin: 0.1rem 0 1rem 1.75rem;
   border: 1px solid $rule;
   border-radius: 6px;
-  box-shadow: 0 10px 24px rgba(35, 32, 29, 0.1);
+  box-shadow: 0 12px 26px rgba(23, 107, 135, 0.14);
 }
 
 .home-section,
@@ -234,7 +226,7 @@ a:hover {
   margin-top: 0.85rem;
   padding-left: 1rem;
   border-left: 2px solid $rule;
-  color: #3f3a35;
+  color: #33414a;
   line-height: 1.65;
 }
 
@@ -253,14 +245,22 @@ a:hover {
     padding-top: 1.7rem;
   }
 
-  .site-nav .page-link::after {
-    display: none;
-  }
-
   .profile-photo {
     float: none;
     display: block;
     width: min(70vw, 210px);
     margin: 0 0 1rem;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .site-nav .trigger {
+    display: flex;
+    align-items: center;
+    gap: 1.45rem;
+  }
+
+  .site-nav .page-link {
+    margin-left: 0;
   }
 }
