@@ -69,9 +69,32 @@ Last updated: September 2024
 Work in Progress
 --------------
 
-**When Lagged Observables Can (and Should) Be Used as Instruments**  
+**When Predetermined Variables Can (and Should) Be Used as Instruments**<br>
 (with Andrea Ferrara)  
 {: .paper-title}
+
+<details class="paper-abstract">
+  <summary class="btn-abstract">Abstract</summary>
+  <div class="abstract-text">
+  We propose a method for using predetermined variables as instruments to estimate structural
+equations and provide a new justification for their exogeneity and relevance. Assuming the
+structural disturbance follows an ARMA process, the equation can be transformed so that
+sufficiently deep lags of observable variables are exogenous. To analyze instrument relevance,
+we consider the New Keynesian Phillips curve and contrast predetermined variables with monetary
+policy shocks under two equilibrium models as the slope κ → 0, a setting prone to weak
+identification. Under representative-agent rational expectations, both instrument sets become
+weak as the curve flattens: policy shocks cease to move inflation expectations, while controls
+absorb the predictive content of past observables. Under heterogeneous learning, firms form and
+update beliefs differently, creating persistent disagreement that shapes the evolution of average
+expectations over time. Predetermined variables predict these dynamics, which the controls do not
+fully span, while monetary policy shocks do not. Predetermined variables may be stronger
+instruments because they capture the dynamic effects of many past shocks and propagation
+channels, while external instruments isolate only a few. Applying our method to estimate the
+NKPC, monetary, and fiscal policy rules using U.S. data, we find that using predetermined
+variables as instruments yields stable, economically sensible coefficient estimates across a wide
+range of specifications.
+  </div>
+</details>
 
 Publications
 --------------

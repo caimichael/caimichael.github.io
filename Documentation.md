@@ -1,5 +1,13 @@
 # Documentation
 
+## 2026-07-15
+
+- Milestone: update the work-in-progress instruments paper entry.
+- Success criteria: the Research page renames the paper to `When Predetermined Variables Can (and Should) Be Used as Instruments`, presents the supplied abstract in the existing collapsible abstract treatment, and renders correctly in a local browser.
+- Decision: renamed the paper entry and added the abstract beneath the author line, using the same `paper-abstract`, `btn-abstract`, and `abstract-text` structure as the other research entries; rendered the supplied slope notation as the native characters `κ → 0` for reliable browser display without an added math dependency.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed `_site/research/index.html` contains the renamed title, collapsible abstract markup, full abstract text, and native `κ → 0` notation. Started the site at `http://127.0.0.1:4001/`, opened the Research page in the default browser, and visually verified the desktop rendering with a headless Chrome screenshot.
+- Deviations/blockers: the in-app browser controller rejected its session metadata, so visual verification used headless Chrome and the local preview was opened in the system browser instead. Port 4001 was used because port 4000 was already occupied.
+
 ## 2026-07-03
 
 - Milestone: add mobile-only homepage intro line break.
