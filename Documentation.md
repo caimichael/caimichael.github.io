@@ -2,6 +2,12 @@
 
 ## 2026-07-15
 
+- Milestone: rename the GitHub publishing branch from `master` to `main`.
+- Success criteria: GitHub uses `main` as the repository default and publishing branch, the obsolete remote `master` branch is removed, and the local `main` branch tracks `origin/main`.
+- Decision: created `origin/main` at the current published commit, changed the repository default branch through the GitHub API, deleted `origin/master`, updated the local upstream configuration, and recreated the GitHub Pages configuration with `main` at `/` as its publishing source while preserving `www.michaelcai.com`.
+- Validation: `git ls-remote --symref origin HEAD refs/heads/main refs/heads/master` confirmed remote `HEAD` and the sole requested branch ref point to `main`; the GitHub repository API reported `main` as the default branch; the Pages workflow completed successfully from `main`; the deployed Research page returned HTTP 200; and all linked local PDFs (`asset_market_channel.pdf`, `MichaelCai_JMP_Inertia.pdf`, `rss_heterogeneity.pdf`, `sr844.pdf`, `MichaelCai_CV.pdf`, and `MichaelCai_Teachingevals.pdf`) returned HTTP 200 with `application/pdf` content types.
+- Deviations/blockers: GitHub CLI authorization was required because the GitHub connector and unavailable Chrome control backend could not change the repository default branch. Deleting the old publishing branch removed the prior Pages configuration and briefly produced 404 responses; recreating Pages with `main` as the source restored the site and static PDFs.
+
 - Milestone: update the work-in-progress instruments paper entry.
 - Success criteria: the Research page renames the paper to `When Predetermined Variables Can (and Should) Be Used as Instruments`, presents the supplied abstract in the existing collapsible abstract treatment, and renders correctly in a local browser.
 - Decision: renamed the paper entry and added the abstract beneath the author line, using the same `paper-abstract`, `btn-abstract`, and `abstract-text` structure as the other research entries; rendered the supplied slope notation as the native characters `κ → 0` for reliable browser display without an added math dependency.
