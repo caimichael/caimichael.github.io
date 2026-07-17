@@ -16,22 +16,22 @@ Last updated: July 2026
 <details class="paper-abstract">
   <summary class="btn-abstract">Abstract</summary>
   <div class="abstract-text">
-  Over four decades, U.S. market power has risen, interest rates have fallen, and wealth has
-concentrated at the top. We show that rising market power endogenously lowers equilibrium
-interest rates and raises top wealth shares in a model with (1) imperfectly elastic asset markets
-and (2) realistic destination of rents. The key implication is an asset market channel through
-which higher markups generate two opposing forces: redistribution and asset creation. For
-redistribution, higher markups reallocate income from wages earned by low-saving workers to
-profits earned by high-saving business owners, increasing aggregate asset demand. For asset
-creation, a portion of market-power profits is capitalized into publicly traded equity claims,
-increasing asset supply. We derive an analytical expression, as a function of sufficient statistics,
-such as factor shares, the traded share of profits and asset demand elasticities, to quantify
-and decompose the effect. In the data, the redistribution effect dominates the asset creation.
-Along the transition path that matches the observed increase in aggregate markups, equilibrium
-interest rates fall by 220 basis points, the top-1% wealth share rises, and real output is essentially
-unchanged, whereas output falls by 15% in the representative-agent benchmark. These results
-suggest that the costs of market power may arise primarily from wealth concentration rather
-than from output distortions.
+  Over the past forty years, U.S. market power has risen, long-run real rates have fallen,
+and wealth has concentrated at the top. We propose a model in which rising market power
+endogenously lowers long-run rates, raises top wealth shares, and yet has only a muted effect
+on the long-run level of output. The asset market channel linking these aggregate trends
+rests on two departures from benchmark general equilibrium models of market power: 1)
+households hold differentiated ownership claims to market-power profits and 2) households
+face idiosyncratic income risk, which makes long-run asset demand imperfectly elastic. To
+quantify how the endogenous response of rates shapes the real effects of market power in the
+long run, we derive a sufficient-statistic representation of asset market clearing in terms of factor
+shares, relative saving propensities, asset-demand elasticity, and the tradable share of profits.
+The sufficient-statistic exercise and the full nonlinear transition point to the same conclusion:
+the asset market channel lowers the long-run return by up to 238 basis points and raises the
+top-1% wealth share by up to 55.5%. At the same time, long-run output falls by only 2.6%, an
+86% smaller decline than in the representative-household benchmark. The asset market channel
+therefore dampens output losses from market power while magnifying its effects on wealth
+concentration.
   </div>
 </details>
 

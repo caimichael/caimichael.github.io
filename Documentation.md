@@ -1,5 +1,13 @@
 # Documentation
 
+## 2026-07-17
+
+- Milestone: publish the July 17 revision of `The Asset Market Channel of Market Power`.
+- Success criteria: the Research page reproduces the abstract in the replacement PDF, the replacement PDF remains linked from the paper title, and the site builds successfully.
+- Decision: replaced only the paper's abstract text with the July 17 PDF abstract and retained the existing title, coauthor, draft label, and July 2026 update metadata.
+- Validation: `BUNDLE_PATH=/Users/michaelcai/caimichael.github.io/main/vendor/bundle /opt/homebrew/opt/ruby/bin/bundle exec jekyll build` completed successfully. Confirmed the generated Research page contains the revised opening and the new 238-basis-point, 55.5%, and 2.6% results; confirmed the generated PDF is byte-for-byte identical to the replacement source PDF.
+- Deviations/blockers: none.
+
 ## 2026-07-15
 
 - Milestone: rename the GitHub publishing branch from `master` to `main`.
