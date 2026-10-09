@@ -35,7 +35,7 @@ Last updated: October 2026
   and rising wealth concentration. 
   The counterfactual contribution of the rise in aggregate markups to 
   the decline in long-run rates is 1 percentage point, 
-  in line with empirical estimates of the trend decline in $r^*$ prior to 2008. 
+  in line with empirical estimates of the trend decline in <i>r</i><sup>*</sup> prior to 2008.
   This decline in rates lowers the cost of capital and mitigates half of 
   the 11 percent aggregate output loss from the product market 
   distortions of markups relative to a representative household benchmark. 
