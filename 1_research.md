@@ -10,7 +10,7 @@ Working Papers
 **[The Asset Market Channel of Market Power](/files/asset_market_channel.pdf)**  
 (with Dalton Rongxuan Zhang)  
 *Preliminary draft*  
-Last updated: July 2026
+Last updated: October 2026
 {: .paper-title}
 
 <details class="paper-abstract">
